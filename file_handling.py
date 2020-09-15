@@ -23,8 +23,8 @@ class File:
         Shortcut method to read main file.
         """
 
-            self.main_file = pd.read_csv(self.path, encoding=self.encoding)
-            return self.main_file
+        self.main_file = pd.read_csv(self.path, encoding=self.encoding)
+        return self.main_file
     
     def Create(self):
         """
