@@ -5,6 +5,10 @@ class File:
         pass
 
     def Create(self, name):
+        """
+        Creates new data file using defined name. Name needs to have .csv suffix.
+        """
+
         columns = {
             "Data operacji": 0, "Data waluty": 1,
             "Typ transakcji": 2, "Kwota": 3,
