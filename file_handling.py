@@ -42,7 +42,7 @@ class File:
         df1.drop(axis = 0, index = df1.index[0], inplace = True)
         df1.to_csv(self.path, index = False, encoding=self.encoding)
 
-        
+        return None
 
     def NewData(self, newfile):
         """
@@ -55,3 +55,5 @@ class File:
         self.ReadMain()     #Main file needs to be read again (refreshed) after writing to file done above.
         self.main_file.drop_duplicates(inplace = True)
         self.main_file.to_csv(self.path, index = False, encoding = self.encoding)
+
+        return None
