@@ -1,7 +1,11 @@
 from file_handling import File
 
 
-new_account = File()
+new_account = File("tabela1.csv")
+
+#new_account.Create()
+
+#new_account.NewData("history_csv_20200914_181117.csv")
 
 
-new_account.Create("tabela1.csv")
+print(new_account.ReadMain().head())
