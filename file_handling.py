@@ -201,7 +201,7 @@ class dbFile:
         category = int(input("Wybierz kategorie: "))
         return categories[category]
 
-    def selectPlace(self, category):
+    def selectPlaceIndex(self, category):
         """
         Returns index of dictionary with selected place
         """
@@ -220,6 +220,18 @@ class dbFile:
             print("Brak placówek. Musisz dodać miejsca do kategorii " + category)
             place = 0
         return place
+
+    def getPlaceNamebyIndex(self, index, category):
+        """
+        Returns place name selected by category and it's index in category
+        """
+        file_placeName = self.__Open__()
+        names_key = self.__getDefDictKeys__(file_placeName[category])[0]
+        try:
+            placeName = file_placeName[category][index].get(names_key)
+            return placeName
+        except IndexError:
+            return print("Brak pozycji pod tym numerem")
 
     def AddCategory(self):
         """
@@ -258,7 +270,7 @@ class dbFile:
         update_description = self.__Open__()
         category = self.selectCategory()
         key = self.__getDefDictKeys__(update_description[category])[1]
-        place = self.selectPlace(category)
+        place = self.selectPlaceIndex(category)
         if place > 0:
             new_description = input("Podaj opis: ")
             update_description[category][place].get(key).append(new_description)

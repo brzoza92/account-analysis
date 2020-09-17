@@ -14,7 +14,9 @@ new_account = File("tabela2.csv")
 #print(new_account.ReadMain().head())
 
 new_json = dbFile()
+#new_json.AddPlace()
 
-new_json.AddDescription()
+print(new_json.getPlaceNamebyIndex(1, "Spozywcze"))
+
 
 

@@ -1,0 +1,57 @@
+{
+    "categories": [
+        "Spozywcze",
+        "Rachunki",
+        "Paliwo",
+        "Restauracje",
+        "Odziez",
+        "Platnosc przez internet",
+        "Dla psa"
+    ],
+    "Spozywcze": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Kaufland",
+            "Opis transakcji": []
+        }
+    ],
+    "Rachunki": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ],
+    "Paliwo": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ],
+    "Restauracje": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ],
+    "Odziez": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ],
+    "Platnosc przez internet": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ],
+    "Dla psa": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ]
+}
