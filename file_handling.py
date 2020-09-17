@@ -132,6 +132,18 @@ class File:
         
         return self.months
 
+    # def SetTypeAndPlace(self, index):
+    #     file = self.ReadMain()   
+    #     print ("Opis transakcji: " +file[file.columns[7]][index])
+    #     category = dbFile.selectCategory(self)
+    #     place_index =  dbFile.selectPlaceIndex(self)
+    #     place = dbFile.getPlaceNamebyIndex(self, place_index)
+
+
+
+
+
+
 class dbFile:
     def __init__(self):
         """
@@ -195,12 +207,19 @@ class dbFile:
         Returns string with selected category, to search through dictionary
         """
         print("Lista kategorii:")
-        categories = self.__getCategoriesList__()
-        for i,j in enumerate(categories):
-            print(str(i) + "- " + j)
-        category = int(input("Wybierz kategorie: "))
-        return categories[category]
-
+        while(True):
+            categories = self.__getCategoriesList__()
+            for i,j in enumerate(categories):
+                print(str(i) + "- " + j)
+            category = input("Wybierz kategorie. /n(n - dodaj nowa)/n(x - przerwij)")
+            if category.isdigit():
+                return categories[int(category)]
+            else: 
+                if category == 'n':
+                    self.AddCategory()
+                else: 
+                    break
+        return None        
     def selectPlaceIndex(self, category):
         """
         Returns index of dictionary with selected place
@@ -277,3 +296,9 @@ class dbFile:
 
             self.__Write__(update_description)
         return None
+
+    def SetTypeAndPlace(self, description):
+        print ("Opis transakcji: " + description)
+        # category = dbFile.selectCategory(self)
+        # place_index =  dbFile.selectPlaceIndex(self)
+        # place = dbFile.getPlaceNamebyIndex(self, place_index)
