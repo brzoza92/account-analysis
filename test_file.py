@@ -21,7 +21,11 @@ new_json = dbFile()
 
 # print(new_json.getPlaceNamebyIndex(place_index, category))
 
-while(True):
+
+
+#Filling category and place in data account file
+#================================================================
+while(False):
     file = new_account.ReadMain()
     description1_column = file[file.columns[6]]
     description2_column = file[file.columns[7]]
@@ -35,7 +39,7 @@ while(True):
             +description1_column[index] +"\n"
             +description2_column[index] + "\n"
             )
-        print("indeks = "+str(index))
+        #print("indeks = "+str(index))
         category = new_json.selectCategory()
         if category is None:
             print("Błąd przy wyborze kategorii\n")
@@ -60,3 +64,7 @@ while(True):
     if do_again != "y":
         break
     
+#==========================================================
+#==========================================================
+
+#Capturing description from data account file

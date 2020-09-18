@@ -146,18 +146,26 @@ class File:
             if  (value_cat or value_place) == "nan":
                 return row
         return None   
-
+    def IsFilled(self, index):
+        """
+        Returns if the record is filled with category and place name
+        """
+        self.ReadMain()
+        categoryColumn_fill = self.main_file[self.main_file.columns[11]]
+        placeColumn_fill = self.main_file[self.main_file.columns[12]]
+        
+        value_cat_fill = str(categoryColumn_fill[index])
+        value_place_fill = str(placeColumn_fill[index])
+        if  (value_cat_fill or value_place_fill) == "nan":
+            return False
+        else:  
+            return True
 
     def fillCatAndPlace(self, index, category, place):
         fill_file = self.ReadMain()   
-        print(category)
-        print(place)
-        print(index)
         fill_file.at[index, fill_file.columns[11]] = category
         fill_file.at[index, fill_file.columns[12]] = place
 
-        print(fill_file[fill_file.columns[11]][index])
-        print(fill_file[fill_file.columns[12]][index])
         fill_file.to_csv(self.path, index = False, mode = 'w', encoding = self.encoding)
         return None
 
