@@ -21,7 +21,6 @@ new_json = dbFile()
 
 # print(new_json.getPlaceNamebyIndex(place_index, category))
 
-
 while(True):
     file = new_account.ReadMain()
     description1_column = file[file.columns[6]]
@@ -52,6 +51,8 @@ while(True):
                     pass
                 else:
                     print("Wybrano kategorie "+category +" i miejsce o nazwie "+place)
+                    new_account.fillCatAndPlace(index, category, place)
+
     else:
         print("Wszystkie dane wypelnione")
         break

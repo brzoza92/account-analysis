@@ -143,17 +143,23 @@ class File:
         for row in range(0, self.__getFileLength__()):
             value_cat = str(categoryColumn[row])
             value_place = str(placeColumn[row])
-            if  (value_cat or value_place == "nan"):
+            if  (value_cat or value_place) == "nan":
                 return row
         return None   
 
 
-    # def SetTypeAndPlace(self, index):
-    #     file = self.ReadMain()   
-    #     print ("Opis transakcji: " +file[file.columns[7]][index])
-    #     category = dbFile.selectCategory(self)
-    #     place_index =  dbFile.selectPlaceIndex(self)
-    #     place = dbFile.getPlaceNamebyIndex(self, place_index)
+    def fillCatAndPlace(self, index, category, place):
+        fill_file = self.ReadMain()   
+        print(category)
+        print(place)
+        print(index)
+        fill_file.at[index, fill_file.columns[11]] = category
+        fill_file.at[index, fill_file.columns[12]] = place
+
+        print(fill_file[fill_file.columns[11]][index])
+        print(fill_file[fill_file.columns[12]][index])
+        fill_file.to_csv(self.path, index = False, mode = 'w', encoding = self.encoding)
+        return None
 
 
 

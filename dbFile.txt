@@ -7,7 +7,16 @@
         "Odziez",
         "Platnosc przez internet",
         "Dla psa",
-        "Abonamenty"
+        "Abonamenty",
+        "Transfer wewnetrzny",
+        "Przychod",
+        "Chemia domowa",
+        "Remonty",
+        "Us\u0142ugi",
+        "Niezdefiniowane",
+        "Przelewy personalne",
+        "Transport/Parkometr itp.",
+        "Utrzymanie samochod\u00f3w"
     ],
     "Spozywcze": [
         {
@@ -16,6 +25,18 @@
         },
         {
             "Nazwa placowki": "Kaufland",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Sekret smaku - pierogarnia",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Ma\u0142y sklep",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Stokrotka",
             "Opis transakcji": []
         }
     ],
@@ -27,11 +48,31 @@
         {
             "Nazwa placowki": "Mieszkanie",
             "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Telefon",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Pr\u0105d",
+            "Opis transakcji": []
         }
     ],
     "Paliwo": [
         {
             "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "BP",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Lotos",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Shell",
             "Opis transakcji": []
         }
     ],
@@ -39,11 +80,31 @@
         {
             "Nazwa placowki": "",
             "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Arena Garden",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Obiad",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Wyj\u015bcia ze znajomymi",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Przyjemno\u015bci",
+            "Opis transakcji": []
         }
     ],
     "Odziez": [
         {
             "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Zalando",
             "Opis transakcji": []
         }
     ],
@@ -55,11 +116,19 @@
         {
             "Nazwa placowki": "Paypro",
             "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Blue Media",
+            "Opis transakcji": []
         }
     ],
     "Dla psa": [
         {
             "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Sklep zoologiczny",
             "Opis transakcji": []
         }
     ],
@@ -82,6 +151,108 @@
         },
         {
             "Nazwa placowki": "Apple iCloud",
+            "Opis transakcji": []
+        }
+    ],
+    "Transfer wewnetrzny": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Idea Bank",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Revolut",
+            "Opis transakcji": []
+        }
+    ],
+    "Przychod": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Pensja",
+            "Opis transakcji": []
+        }
+    ],
+    "Chemia domowa": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Rossmann",
+            "Opis transakcji": []
+        }
+    ],
+    "Remonty": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Castorama",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Mr\u00f3wka",
+            "Opis transakcji": []
+        }
+    ],
+    "Us\u0142ugi": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Stomatolog",
+            "Opis transakcji": []
+        }
+    ],
+    "Niezdefiniowane": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Nieokre\u015blone",
+            "Opis transakcji": []
+        }
+    ],
+    "Przelewy personalne": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Przelew",
+            "Opis transakcji": []
+        }
+    ],
+    "Transport/Parkometr itp.": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Parking",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Autostrady",
+            "Opis transakcji": []
+        }
+    ],
+    "Utrzymanie samochod\u00f3w": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Serwis Skoda",
             "Opis transakcji": []
         }
     ]
