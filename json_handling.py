@@ -67,7 +67,7 @@ class dbFile:
             categories = self.__getCategoriesList__()
             for i,j in enumerate(categories):
                 print(str(i) + "- " + j)
-            category = input("Wybierz kategorie. /n(n - dodaj nowa)/n(x - przerwij)")
+            category = input("Wybierz kategorie. (n - dodaj nowa), (x - przerwij)\n")
             if category.isdigit():
                 return categories[int(category)]
             else: 
@@ -80,21 +80,26 @@ class dbFile:
         """
         Returns index of dictionary with selected place
         """
-
-        file_place = self.__Open__()
-
-        names_key = self.__getDefDictKeys__(file_place[category])[0]
-        i = 0
-        for dict in file_place[category]:
-            if i > 0:
-                print(str(i) +"- " +dict.get(names_key))
-            i += 1    
-        if (i >= 2):
-            place = int(input("Wybierz miejsce: "))       
-        else:
-            print("Brak placówek. Musisz dodać miejsca do kategorii " + category)
-            place = 0
-        return place
+        while(True):
+            file_place = self.__Open__()
+            names_key = self.__getDefDictKeys__(file_place[category])[0]
+            i = 0
+            for dict in file_place[category]:
+                if i > 0:
+                    print(str(i) +"- " +dict.get(names_key))
+                i += 1    
+            if (i >= 2):
+                place = input("Wybierz miejsce. (n - dodaj nowe), (x - przerwij)\n")   
+            else:
+                place = input("Brak placówek w kategorii "+ category +". (n - dodaj nowe), (x - przerwij)\n" )
+            if place.isdigit():
+                return int(place)
+            else: 
+                if place == 'n':
+                    self.AddPlace()
+                else: 
+                    break
+        return None
 
     def getPlaceNamebyIndex(self, index, category):
         """
@@ -106,7 +111,8 @@ class dbFile:
             placeName = file_placeName[category][index].get(names_key)
             return placeName
         except IndexError:
-            return print("Brak pozycji pod tym numerem")
+            print("Brak pozycji pod tym numerem")
+            return None
 
     def AddCategory(self):
         """
@@ -116,6 +122,10 @@ class dbFile:
         new_category = input("Podaj nazwe kategorii: ")
         update_category = self.__Open__()
         update_category[self.categories].append(new_category)
+
+        update_category[new_category] = []
+        update_category[new_category].append({"Nazwa placowki": "", "Opis transakcji": []})
+
 
         self.__Write__(update_category)
 

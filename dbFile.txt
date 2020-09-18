@@ -6,7 +6,8 @@
         "Restauracje",
         "Odziez",
         "Platnosc przez internet",
-        "Dla psa"
+        "Dla psa",
+        "Abonamenty"
     ],
     "Spozywcze": [
         {
@@ -21,6 +22,10 @@
     "Rachunki": [
         {
             "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Mieszkanie",
             "Opis transakcji": []
         }
     ],
@@ -46,11 +51,37 @@
         {
             "Nazwa placowki": "",
             "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Paypro",
+            "Opis transakcji": []
         }
     ],
     "Dla psa": [
         {
             "Nazwa placowki": "",
+            "Opis transakcji": []
+        }
+    ],
+    "Abonamenty": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Netflix",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Spotify",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "HBO",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Apple iCloud",
             "Opis transakcji": []
         }
     ]

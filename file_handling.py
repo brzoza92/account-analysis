@@ -132,6 +132,22 @@ class File:
         
         return self.months
 
+    def FindEmpty(self):
+        """
+        Returns index of account data table where there is no information
+        about category of payment or place
+        """
+        categoryColumn = self.main_file[self.main_file.columns[11]]
+        placeColumn = self.main_file[self.main_file.columns[12]]
+
+        for row in range(0, self.__getFileLength__()):
+            value_cat = str(categoryColumn[row])
+            value_place = str(placeColumn[row])
+            if  (value_cat or value_place == "nan"):
+                return row
+        return None   
+
+
     # def SetTypeAndPlace(self, index):
     #     file = self.ReadMain()   
     #     print ("Opis transakcji: " +file[file.columns[7]][index])
