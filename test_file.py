@@ -1,5 +1,5 @@
-from file_handling import File, dbFile
-
+from file_handling import File
+from json_handling import dbFile
 
 new_account = File("tabela2.csv")
 
