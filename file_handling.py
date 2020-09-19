@@ -162,12 +162,28 @@ class File:
             return True
 
     def fillCatAndPlace(self, index, category, place):
+        """
+        Loads prepared data into category and place of selected row of file
+        """
         fill_file = self.ReadMain()   
         fill_file.at[index, fill_file.columns[11]] = category
         fill_file.at[index, fill_file.columns[12]] = place
 
         fill_file.to_csv(self.path, index = False, mode = 'w', encoding = self.encoding)
         return None
+
+    def ClearCatAndPlace(self, index):
+        """
+        Clear category and place for selected record
+        """
+        self.ReadMain()   
+        self.main_file.at[index, self.main_file.columns[11]] = "nan"
+        self.main_file.at[index, self.main_file.columns[12]] = "nan"
+
+        self.main_file.to_csv(self.path, index = False, mode = 'w', encoding = self.encoding)
+        return None
+       
+
 
 
 

@@ -25,19 +25,27 @@
         },
         {
             "Nazwa placowki": "Kaufland",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KAUFLAND 01"
+            ]
         },
         {
             "Nazwa placowki": "Sekret smaku - pierogarnia",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PRACOWNIA PIEROGOWA"
+	    ]
         },
         {
             "Nazwa placowki": "Ma\u0142y sklep",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: LANCKORONA Adres: ZPO LAN-KARS A.J.KARELUS"
+            ]
         },
         {
             "Nazwa placowki": "Stokrotka",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: STOKROTKA 01"
+            ]
         }
     ],
     "Rachunki": [
@@ -51,11 +59,15 @@
         },
         {
             "Nazwa placowki": "Telefon",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Nazwa odbiorcy: T-MOBILE POLSKA S.A."
+            ]
         },
         {
             "Nazwa placowki": "Pr\u0105d",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Nazwa odbiorcy: TAURON SPRZEDA\u017b SP. Z O.O."
+            ]
         }
     ],
     "Paliwo": [
@@ -65,15 +77,26 @@
         },
         {
             "Nazwa placowki": "BP",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BP-ADAS 394",
+                "Lokalizacja: Kraj: POLSKA Miasto: WLOSAN Adres: BP-GLOGOCZOW 329",
+                "Lokalizacja: Kraj: POLSKA Miasto: PROMNA Adres: BP-PROMNA 953",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BP-ZAKOPIANKA 177",
+                "Lokalizacja: Kraj: POLSKA Miasto: PROMNA Adres: BP-PROMNA 953",
+                "Lokalizacja: Kraj: POLSKA Miasto: PRZASNYSZ Adres: BP-PRZASNYSZ 904"
+            ]
         },
         {
             "Nazwa placowki": "Lotos",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: BIELSK PODLAS Adres: LOTOS SF726 K.2"
+            ]
         },
         {
             "Nazwa placowki": "Shell",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Elblag Adres: SHELL"
+            ]
         }
     ],
     "Restauracje": [
@@ -82,20 +105,27 @@
             "Opis transakcji": []
         },
         {
-            "Nazwa placowki": "Arena Garden",
-            "Opis transakcji": []
-        },
-        {
             "Nazwa placowki": "Obiad",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: SUWALKI Adres: U ALIKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Suwalki Adres: Astoria Suwalki s71943",
+                "Lokalizacja: Kraj: POLSKA Miasto: Bialowieza Adres: BABUSHKA BISTRO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TRATTORIA WYKI"
+            ]
         },
         {
             "Nazwa placowki": "Wyj\u015bcia ze znajomymi",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: FORUM S.C.",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: FORUM PRZESTRZENIE",
+		"Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ARENA CATERING C10/11"
+            ]
         },
         {
             "Nazwa placowki": "Przyjemno\u015bci",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: ZIELONKI Adres: LODOWA CHATKA K"
+            ]
         }
     ],
     "Odziez": [
@@ -105,7 +135,9 @@
         },
         {
             "Nazwa placowki": "Zalando",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: NIEMCY Miasto: Berlin Adres: Zalando Payments"
+            ]
         }
     ],
     "Platnosc przez internet": [
@@ -115,11 +147,15 @@
         },
         {
             "Nazwa placowki": "Paypro",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Adres odbiorcy: UL. KANCLERSKA 15 60-327 POZNA\u0143"
+            ]
         },
         {
             "Nazwa placowki": "Blue Media",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Adres odbiorcy: UL. HAFFNERA 6 81-717 SOPOT"
+            ]
         }
     ],
     "Dla psa": [
@@ -129,7 +165,9 @@
         },
         {
             "Nazwa placowki": "Sklep zoologiczny",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: A H KROKODYL"
+            ]
         }
     ],
     "Abonamenty": [
@@ -139,7 +177,9 @@
         },
         {
             "Nazwa placowki": "Netflix",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: HOLANDIA Miasto: NETFLIX.COM Adres: NETFLIX.COM"
+            ]
         },
         {
             "Nazwa placowki": "Spotify",
@@ -151,7 +191,10 @@
         },
         {
             "Nazwa placowki": "Apple iCloud",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: IRLANDIA Miasto: CORK Adres: APPLE.COM/BILL",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: 008004411875 Adres: APPLE.COM/BILL"
+            ]
         }
     ],
     "Transfer wewnetrzny": [
@@ -161,11 +204,15 @@
         },
         {
             "Nazwa placowki": "Idea Bank",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Nazwa odbiorcy: RAFA\u0141 BRZOZOWSKI"
+            ]
         },
         {
             "Nazwa placowki": "Revolut",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: GBR Odbiorca: Revolut**9720*"
+            ]
         }
     ],
     "Przychod": [
@@ -175,7 +222,9 @@
         },
         {
             "Nazwa placowki": "Pensja",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Nazwa nadawcy: TEAMTECHNIK PRODUCTION TECHNOLOGY SP. Z O.O."
+            ]
         }
     ],
     "Chemia domowa": [
@@ -185,7 +234,9 @@
         },
         {
             "Nazwa placowki": "Rossmann",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ROSSMANN 17"
+            ]
         }
     ],
     "Remonty": [
@@ -195,11 +246,15 @@
         },
         {
             "Nazwa placowki": "Castorama",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: CASTORAMA KRAKOW 2"
+            ]
         },
         {
             "Nazwa placowki": "Mr\u00f3wka",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KALWARIA ZEBR Adres: MARKET PSB MROWKA"
+            ]
         }
     ],
     "Us\u0142ugi": [
@@ -209,7 +264,9 @@
         },
         {
             "Nazwa placowki": "Stomatolog",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DENT 22"
+            ]
         }
     ],
     "Niezdefiniowane": [
@@ -219,7 +276,12 @@
         },
         {
             "Nazwa placowki": "Nieokre\u015blone",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: CHELM Adres: TOLU CONCEPT GROUP",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Meta sp zoo",
+                "Lokalizacja: Kraj: POLSKA Miasto: MYSLENICE Adres: FIRMA \"DORA\" JOZEFA BYL",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Stawowa 61"
+            ]
         }
     ],
     "Przelewy personalne": [
@@ -229,7 +291,11 @@
         },
         {
             "Nazwa placowki": "Przelew",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Nazwa nadawcy: GRZEGORZ JAN RYNIEWICZ BANACHA 31 M 7",
+                "Nazwa odbiorcy: PAULINA BRZOZOWSKA",
+                "Nazwa nadawcy: Karol Wolski"
+            ]
         }
     ],
     "Transport/Parkometr itp.": [
@@ -239,11 +305,15 @@
         },
         {
             "Nazwa placowki": "Parking",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZDMK KRAKOW 1"
+            ]
         },
         {
             "Nazwa placowki": "Autostrady",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: AUTOSTRADY - SKYCASH"
+            ]
         }
     ],
     "Utrzymanie samochod\u00f3w": [
@@ -253,7 +323,9 @@
         },
         {
             "Nazwa placowki": "Serwis Skoda",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ALFA S C TOMASZ SARKOWI"
+            ]
         }
     ]
 }

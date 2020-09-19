@@ -101,6 +101,20 @@ class dbFile:
                     break
         return None
 
+    def getPlaceIndexByName(self, place, category):
+        """
+        Returns place index in category selected by category and it's name 
+        """
+        file_placeIndex = self.__Open__()
+        try:
+            names_keyIndex = self.__getDefDictKeys__(file_placeIndex[category])[0]
+            for id_Index, data in enumerate(file_placeIndex[category]):
+                if (data.get(names_keyIndex) == place):
+                    return id_Index
+
+        except KeyError:
+            return None       
+
     def getPlaceNamebyIndex(self, index, category):
         """
         Returns place name selected by category and it's index in category
@@ -150,7 +164,9 @@ class dbFile:
 
     def AddDescription(self):
         """
-        Adding new description for specified place
+        Adding new description with selecting category and place.
+
+        Add arguments, if present arguments of category and place then skip selecting
         """
         update_description = self.__Open__()
         category = self.selectCategory()
@@ -162,6 +178,15 @@ class dbFile:
 
             self.__Write__(update_description)
         return None
+
+    def AddDescriptionTarget(self, category, index, description):
+        update_description_target = self.__Open__()
+        key_description = self.__getDefDictKeys__(update_description_target[category])[1]
+        description_list = update_description_target[category][index].get(key_description)
+        if description not in description_list:
+            update_description_target[category][index].get(key_description).append(description)
+
+            self.__Write__(update_description_target)
 
     def SetTypeAndPlace(self, description):
         print ("Opis transakcji: " + description)

@@ -67,4 +67,33 @@ while(False):
 #==========================================================
 #==========================================================
 
-#Capturing description from data account file
+#Capturing description from data account file and saving into json file
+#==========================================================
+while(False):    
+    file = new_account.ReadMain()
+    file_length = file[file.columns[0]].count()
+    done = False
+    for row in range (0, file_length):
+        if new_account.IsFilled(row):
+            description = file[file.columns[7]][row]
+            category = file[file.columns[11]][row]
+            place = file[file.columns[12]][row]
+            id_place = new_json.getPlaceIndexByName(place, category)
+            if id_place is not None:
+                new_json.AddDescriptionTarget(category, id_place, description)
+            else:
+                print("Problem z wierszem o numerze " +str(row)+"\n")
+                new_account.ClearCatAndPlace(row)
+                break
+        if (row == (file_length - 1)):
+            done = True
+    if not done:          
+        do_again2 = input("Kontynuowac? (y - tak), (n - nie)\n")
+        if do_again2 != "y":
+            break
+    else:
+        break
+#==========================================================
+#==========================================================
+
+
