@@ -1,4 +1,5 @@
 import json
+import difflib
 
 class dbFile:
     def __init__(self):
@@ -188,8 +189,25 @@ class dbFile:
 
             self.__Write__(update_description_target)
 
-    def SetTypeAndPlace(self, description):
-        print ("Opis transakcji: " + description)
-        # category = dbFile.selectCategory(self)
-        # place_index =  dbFile.selectPlaceIndex(self)
-        # place = dbFile.getPlaceNamebyIndex(self, place_index)
+    def FindDescription(self, description_text):
+        find_description_file = self.__Open__()
+        categories = find_description_file[self.categories]
+
+        for category in categories:             #search through each category
+            for dictionary_id in range(0, len(find_description_file[category])):        #search through each dict
+                close_match = []
+                place_name = []
+                descriptions_list = []
+                place_name = list(find_description_file[category][dictionary_id].values())[0]
+                descriptions_list = list(find_description_file[category][dictionary_id].values())[1]
+                close_match = difflib.get_close_matches(
+                    description_text,
+                    descriptions_list, n = 1,
+                    cutoff = 0.9
+                    )
+                if close_match != []:
+                    self.AddDescriptionTarget(category, dictionary_id, description_text)
+                    return [category, place_name]
+        print("Nie znaleziono podobnego opisu transakcji\n")
+        return []            
+

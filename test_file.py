@@ -1,7 +1,7 @@
 from file_handling import File
 from json_handling import dbFile
 
-new_account = File("tabela2.csv")
+new_account = File("tabela3.csv")
 
 #new_account.Create()
 
@@ -25,44 +25,52 @@ new_json = dbFile()
 
 #Filling category and place in data account file
 #================================================================
-while(False):
+while(True):
     file = new_account.ReadMain()
     description1_column = file[file.columns[6]]
     description2_column = file[file.columns[7]]
     cat_column = file[file.columns[11]]
     place_column = file[file.columns[12]]
+    by_hand = False
     
     index = new_account.FindEmpty()
-    if (index >= 0):
+    if index is not None:
         print(
             "Opis transakcji:\n" 
-            +description1_column[index] +"\n"
-            +description2_column[index] + "\n"
+            +str(description1_column[index]) +"\n"
+            +str(description2_column[index]) + "\n"
             )
-        #print("indeks = "+str(index))
-        category = new_json.selectCategory()
-        if category is None:
-            print("Błąd przy wyborze kategorii\n")
-            pass
+        print(index)
+        auto_search = new_json.FindDescription(description2_column[index])
+        if auto_search != []:
+            new_account.fillCatAndPlace(index, auto_search[0], auto_search[1])
+            print("Wybrano kategorie "+str(auto_search[0]) +" i miejsce o nazwie "+str(auto_search[1])+"\n")
         else:
-            place_id = new_json.selectPlaceIndex(category)
-            if place_id is None:
-                print("Błąd przy wyborze miejsca\n")    
+            by_hand = True
+            category = new_json.selectCategory()
+            if category is None:
+                print("Błąd przy wyborze kategorii\n")
+                pass
             else:
-                place = new_json.getPlaceNamebyIndex(place_id, category)
-                if place is None:
-                    print("Błąd przy wyborze miejsca\n")
-                    pass
+                place_id = new_json.selectPlaceIndex(category)
+                if place_id is None:
+                    print("Błąd przy wyborze miejsca\n")    
                 else:
-                    print("Wybrano kategorie "+category +" i miejsce o nazwie "+place)
-                    new_account.fillCatAndPlace(index, category, place)
-
+                    place = new_json.getPlaceNamebyIndex(place_id, category)
+                    if place is None:
+                        print("Błąd przy wyborze miejsca\n")
+                        pass
+                    else:
+                        print("Wybrano kategorie "+category +" i miejsce o nazwie "+place)
+                        new_account.fillCatAndPlace(index, category, place)
+                        new_json.AddDescriptionTarget(category, place_id, description2_column[index])
     else:
         print("Wszystkie dane wypelnione")
         break
-    do_again = input("Kontynuowac? (y - tak), (n - nie)\n")
-    if do_again != "y":
-        break
+    if by_hand:
+        do_again = input("Kontynuowac? (y - tak), (n - nie)\n")
+        if do_again != "y":
+            break
     
 #==========================================================
 #==========================================================
