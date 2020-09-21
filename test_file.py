@@ -2,29 +2,18 @@ from file_handling import File
 from json_handling import dbFile
 
 new_account = File("tabela3.csv")
-
-#new_account.Create()
-
-#new_account.NewData("history_csv_20200914_182105.csv")
-#new_account.NewData("history_csv_20200914_181117.csv")
-
-#rint(new_account.SplitMonths())
-
-
-#print(new_account.ReadMain().head())
 new_json = dbFile()
-#new_json.AddPlace()
 
-# category = new_json.selectCategory()
 
-# place_index = new_json.selectPlaceIndex(category)
+#print(new_account.SplitCategoriesMonthly(9, 2020))
 
-# print(new_json.getPlaceNamebyIndex(place_index, category))
 
 
 
 #Filling category and place in data account file
 #================================================================
+new_account.NewData("history_csv_20200921_144723.csv")
+
 while(True):
     file = new_account.ReadMain()
     description1_column = file[file.columns[6]]
@@ -66,10 +55,12 @@ while(True):
                         new_json.AddDescriptionTarget(category, place_id, description2_column[index])
     else:
         print("Wszystkie dane wypelnione")
+        new_account.ClearDuplicates()
         break
     if by_hand:
         do_again = input("Kontynuowac? (y - tak), (n - nie)\n")
         if do_again != "y":
+            new_account.ClearDuplicates()
             break
     
 #==========================================================
