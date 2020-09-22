@@ -201,7 +201,7 @@ class dbFile:
                 place_name = list(find_description_file[category][dictionary_id].values())[0]
                 descriptions_list = list(find_description_file[category][dictionary_id].values())[1]
                 close_match = difflib.get_close_matches(
-                    description_text,
+                    str(description_text),
                     descriptions_list, n = 1,
                     cutoff = 0.9
                     )

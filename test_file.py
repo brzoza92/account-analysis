@@ -7,16 +7,18 @@ new_json = dbFile()
 
 #print(new_account.SplitCategoriesMonthly(9, 2020))
 
-
+#print(new_account.SplitYears())
+#print(new_account.SplitMonths(2019))
 
 
 #Filling category and place in data account file
 #================================================================
-new_account.NewData("history_csv_20200921_144723.csv")
+#new_account.NewData("history_csv_20200921_144723.csv")
 
-while(True):
+while(False):
     file = new_account.ReadMain()
     description1_column = file[file.columns[6]]
+    description3_column = file[file.columns[2]]
     description2_column = file[file.columns[7]]
     cat_column = file[file.columns[11]]
     place_column = file[file.columns[12]]
@@ -24,13 +26,15 @@ while(True):
     
     index = new_account.FindEmpty()
     if index is not None:
+        str_description = str(description2_column[index])
         print(
             "Opis transakcji:\n" 
+            +str(description3_column[index]) +"\n"
             +str(description1_column[index]) +"\n"
-            +str(description2_column[index]) + "\n"
+            +str_description + "\n"
             )
         print(index)
-        auto_search = new_json.FindDescription(description2_column[index])
+        auto_search = new_json.FindDescription(str_description)
         if auto_search != []:
             new_account.fillCatAndPlace(index, auto_search[0], auto_search[1])
             print("Wybrano kategorie "+str(auto_search[0]) +" i miejsce o nazwie "+str(auto_search[1])+"\n")
@@ -52,7 +56,7 @@ while(True):
                     else:
                         print("Wybrano kategorie "+category +" i miejsce o nazwie "+place)
                         new_account.fillCatAndPlace(index, category, place)
-                        new_json.AddDescriptionTarget(category, place_id, description2_column[index])
+                        new_json.AddDescriptionTarget(category, place_id, str_description)
     else:
         print("Wszystkie dane wypelnione")
         new_account.ClearDuplicates()

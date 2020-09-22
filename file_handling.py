@@ -1,4 +1,5 @@
 import pandas as pd
+from datetime import datetime as dt
 
 
 class File:
@@ -120,6 +121,29 @@ class File:
 
 
         return None
+
+    def SplitYears(self):
+        """
+        Presents costs taken in split for years.
+        """
+        self.ReadMain()    
+        years_dict = {}
+        for year in range(2010, dt.now().year + 1):
+            year_str = str(year)+ "-"
+            years_dict[year] = 0
+        dateColumn = self.main_file[self.main_file.columns[0]]
+        amountColumn = self.main_file[self.main_file.columns[3]]
+        for y in years_dict:
+            filter_cond = (
+                dateColumn.str.contains(str(y)+"-")
+                & (amountColumn < 0)
+                )
+            edited_file = self.main_file.loc[filter_cond]
+            #print(edited_file[edited_file.columns[0]])
+            result = round(edited_file[edited_file.columns[3]].sum(), 2)
+            years_dict[y] = result * -1 
+        return years_dict
+
     def SplitMonths(self, year):
         """
         Presents costs taken in split for months.
@@ -129,25 +153,18 @@ class File:
         self.__getMonthDict__()
         self.ReadMain()    
 
-        #invest = ["revolut", "brzozowski"]
         year_str = str(year) + "-"
         dateColumn = self.main_file[self.main_file.columns[0]]
         amountColumn = self.main_file[self.main_file.columns[3]]
-        #transName = self.main_file[self.main_file.columns[7]]
         for m in self.months:
-            sum = 0
-            rows = []
-            for value in range(0, self.__getFileLength__()):
-                if ((year_str in dateColumn[value]) 
-                and (m in dateColumn[value]) 
-                and (amountColumn[value] < 0)):
-                    # if any(cond in transName[value].lower() for cond in invest):
-                    #     pass
-                    # else:
-                    rows.append(value)    #save what row fits to condition above
-            for ids in rows:
-                sum += amountColumn[ids]
-            self.months[m] =  round(sum,2) * -1      
+            filter_cond = (
+                dateColumn.str.contains(year_str)
+                & dateColumn.str.contains(m)
+                & (amountColumn < 0)
+                )
+            edited_file = self.main_file.loc[filter_cond]
+            result = round(edited_file[edited_file.columns[3]].sum(), 2)
+            self.months[m] = result * -1 
         
         return self.months
 
@@ -167,38 +184,23 @@ class File:
 
         #generate dictionary of categories that occure in selected month
         cat_dictionary = {}
-        empty_rows = []
-        for value in range(0, self.__getFileLength__()):
-            if (date_str in dateColumn[value]
-            and (amountColumn[value] < 0)):
-                if self.IsFilled(value):
-                    cat_dictionary[catColumn[value]] = 0
-                else:
-                    cat_dictionary["Niezdefiniowane"] = 0
-                    empty_rows.append(value)
+        filter_cond = (
+            dateColumn.str.contains(date_str)
+            & (amountColumn < 0)
+            )
+        filter_cond_empty = (filter_cond & catColumn.isnull())
+        if (self.main_file.loc[filter_cond_empty][self.main_file.columns[0]].count() > 0):
+            print("Wystepują nieuzupełnione dane. Proszę uzupełnić")
+            return None
+
+        edited_file = self.main_file.loc[filter_cond]
+        #generate dictionary of categories that occure in selected month
+        for value in list(edited_file[edited_file.columns[11]]):
+            cat_dictionary[value] = 0
         for category in cat_dictionary:
-            sum = 0
-            rows = []
-            if category != "Niezdefiniowane":
-                for value2 in range(0, self.__getFileLength__()):
-                    if (
-                        (date_str in dateColumn[value2])
-                    and (category in catColumn[value2]) 
-                    and (amountColumn[value2] < 0)
-                    ):
-                        rows.append(value2)    #save what row fits to condition above
-                    if (
-                        (date_str in dateColumn[value2])
-                    and (catColumn[value2] == "nan") 
-                    and (amountColumn[value2] < 0)
-                    ):
-                        rows.append(value2)    #save what row fits to condition above
-                for ids in rows:
-                    sum += amountColumn[ids]
-            else:
-                for ids2 in empty_rows:
-                    sum += amountColumn[ids2]
-            cat_dictionary[category] =  round(sum,2) * -1      
+            cat_edited_file = edited_file.loc[edited_file[edited_file.columns[11]] == category] 
+            result = round(cat_edited_file[cat_edited_file.columns[3]].sum(), 2)
+            cat_dictionary[category] =  result * -1      
         return self.__sortDictionary__(cat_dictionary)
 
 

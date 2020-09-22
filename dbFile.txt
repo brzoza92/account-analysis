@@ -17,7 +17,9 @@
         "Przelewy personalne",
         "Transport/Parkometr itp.",
         "Utrzymanie samochod\u00f3w",
-        "Sport"
+        "Sport",
+        "Bankomat",
+        "Dla mieszkania"
     ],
     "Spozywcze": [
         {
@@ -29,7 +31,69 @@
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KAUFLAND 01",
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KFC 18",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BRATYSLAWSKA"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BRATYSLAWSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PLANET CASH BRATYSLAWSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FREE PUB",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: M22",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.BRATYSLAWSKA 4",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. BRATYSLAWSKA 4",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: KAUFLAND 01",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KAUFLAND 1860 KRAKOW",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ORLEN 15",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ORLEN 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: Zakopane Adres: ORLEN",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SHELL 12",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KATANE",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TEATRO CUBANO",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SHELL 07",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ORLEN DOFO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CARREFOUR",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Smyk 04",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ALSTAR",
+                "Lokalizacja: Kraj: POLSKA Miasto: Bolkow Adres: ORLEN",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: VISTULA OLD12",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DIETLA 68",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: EMPIK 06",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MARKET LEWIATAN",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MEGANA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.BUDRYKA 4",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KAUFLAND 7761 KRAKOW II",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.KAPELANKA 54",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.NORYMBERSKA 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CORTINA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CARREFOUR EXPRESS E42",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MARKET PUNKT",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KAPELANKA 54",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ZIKO DERMO 06",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: APTEKA GALEN",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. KOBIERZYNSKA 63",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: STARA PETLA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. PAWIA 5",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SOFI FLORA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.FLORIANSKA 6",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.MACKIEWICZA 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CINEMA CITY",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. NOWOJKI",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KARMELICKA 9",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: AL. MICKIEWICZA 30",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: KFC 10",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.PIASTOWSKA 49",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. LEA 53",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MICKIEWICZA 30",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PIASTOWSKA 47",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. CZYSTA 21",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MOABURGER",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: EMPIK 04",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. KRZYWDY 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.BRONOWICKA 58",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: U SZWAGRA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KARMELICKA 8",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.KURNIKI 5",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ROSSMANN 14",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. CZARNOWIEJSKA 84",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RO-WIK CZARNOWIEJSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.WADOWICKA 6",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: INTERSPORT"
             ]
         },
         {
@@ -53,14 +117,30 @@
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: EWA ZASTAWNIK EWA",
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Cukiernia Wadowice",
                 "Nazwa odbiorcy: MARCIN SZYDE\u0141KO",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PIEKARNIA AWITEKS"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PIEKARNIA AWITEKS",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PIEKARNIA BUCZEK",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: pl. Imbramowski 179",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Plac Imbramowski 179",
+                "Lokalizacja: Kraj: POLSKA Miasto: WROCLAW Adres: FRESHMARKET Z8313 K.2",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: LAJKONIK PIEKARNIA I KA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Czarny Bor Adres: DINO Czarny Bor",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CUKIERNIA WADOWICE",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SMAK II DELIKATESY",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PIEKARNIA NA RUCZAJU",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krzeszow Adres: DINO Krzeszow",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SKLEPY KABANOSIK SC",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Piekarnia AWITEKS Nawoj",
+                "Lokalizacja: Kraj: POLSKA Miasto: ISTEBNA Adres: \"MARKET REMA\" T.KAMINSK",
+                "Lokalizacja: Kraj: POLSKA Miasto: Rabka-Zdroj Adres: SKLEPY \"ADAS\"",
+                "Lokalizacja: Kraj: POLSKA Miasto: USTRZYKI GOR. Adres: SKLEP OGOLNOSPOZ.SZYNALIK"
             ]
         },
         {
             "Nazwa placowki": "Stokrotka",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: STOKROTKA 01",
-                "Lokalizacja: Kraj: POLSKA Miasto: Szepietowo Adres: Stokrotka Szepietowo"
+                "Lokalizacja: Kraj: POLSKA Miasto: Szepietowo Adres: Stokrotka Szepietowo",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: STOKROTKA 02"
             ]
         },
         {
@@ -69,39 +149,104 @@
                 "Kraj: POLSKA Miasto: KRAKOW Adres: AUCHAN KRAKOW MACKIEWIC",
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: AUCHAN KRAKOW MACKIEWIC",
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: AUCHAN POLSKA SP. Z  01",
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: AUCHAN Bronowice"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: AUCHAN Bronowice",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KRAKOW MACKIEWICZA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Simply Market",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.MACKIEWICZA 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: AUCHAN Bonarka Krakow",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SP KRAKOW II",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW MB 8856",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 29",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 102"
             ]
         },
         {
             "Nazwa placowki": "Biedronka",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KALWARIA ZEB. Adres: JMP S.A. BIEDRONKA 6019",
-                "Lokalizacja: Kraj: POLSKA Miasto: WYSOKIE MAZ Adres: JMP S.A. BIEDRONKA 3086"
+                "Lokalizacja: Kraj: POLSKA Miasto: WYSOKIE MAZ Adres: JMP S.A. BIEDRONKA 3086",
+                "Lokalizacja: Kraj: POLSKA Miasto: LESKO Adres: JMP S.A. BIEDRONKA 2109",
+                "Lokalizacja: Kraj: POLSKA Miasto: KARPACZ Adres: JMP S.A. BIEDRONKA 2079",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: JMP S.A. BIEDRONKA 1323",
+                "Lokalizacja: Kraj: POLSKA Miasto: JELESNIA Adres: JMP S.A. BIEDRONKA 3832",
+                "Lokalizacja: Kraj: POLSKA Miasto: BOGUSZOW-GORC Adres: JMP S.A. BIEDRONKA 2762",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: JMP S.A. BIEDRONKA 1957",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: JMP S.A. BIEDRONKA 4504",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: JMP S.A. BIEDRONKA 3647",
+                "Lokalizacja: Kraj: POLSKA Miasto: BOGUSZOW-GORC Adres: JMP S.A. BIEDRONKA 1217",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: JMP S.A. BIEDRONKA 5300",
+                "Lokalizacja: Kraj: POLSKA Miasto: WLADYSLAWOWO Adres: JMP S.A. BIEDRONKA 3185"
             ]
         },
         {
             "Nazwa placowki": "Zabka",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z5130 K.1",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z2833 K.1"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z2833 K.1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z5214 K.2",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z5214 K.1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z4686 K.1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z5666 K.1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZABKA Z3109 K.1",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Zabka Polska Z3109",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Zabka Polska Z0887"
             ]
         },
         {
             "Nazwa placowki": "Lidl",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: LIDL PACHONSKIEGO"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: LIDL PACHONSKIEGO",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: LIDL KOBIERZYNSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: LIDL SKLEP 1658 SKLEP"
             ]
         },
         {
             "Nazwa placowki": "Tesco",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: ANDRYCHOW Adres: TESCO ANDRYCHOW K.ALK/POK"
+                "Lokalizacja: Kraj: POLSKA Miasto: ANDRYCHOW Adres: TESCO ANDRYCHOW K.ALK/POK",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.142",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO SZCZAWNO ZDR.K 145",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SP KRAKOW I",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW MB 8802",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 117",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 60",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 133",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.148",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.141",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 135",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.144",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 136",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO SZCZAWNO ZDR.K 141",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.143",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.147",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 134",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW MB 8823",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 6",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 9",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW K.146",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 128",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 140",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 11",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 5",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 4",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 12",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TESCO KRAKOW KASA 3",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 43"
             ]
         },
         {
             "Nazwa placowki": "Inne",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MAKRO CASH AND CARRY Po"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MAKRO CASH AND CARRY Po",
+                "Lokalizacja: Kraj: POLSKA Miasto: SZEPIETOWO Adres: ARHELAN SKLEP NR 55",
+                "Lokalizacja: Kraj: POLSKA Miasto: Wysokie Mazow Adres: Supersam POZIOMKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: CZECHOWICE D Adres: TESCO CZECHOWICE D. K.141",
+                "Lokalizacja: Kraj: POLSKA Miasto: Czechowice-Dz Adres: Dziekujemy Zyczymy Szer",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skawina Adres: AUTOMATSPEM VALEO Autos",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skawina Adres: AUTOMATSPEC VALEO Autos",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skawina Adres: AUTOMATSPEC VALEO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: HS JUBILAT SKLEP NR 42",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Real 1044 Krakow"
             ]
         }
     ],
@@ -114,13 +259,18 @@
             "Nazwa placowki": "Mieszkanie",
             "Opis transakcji": [
                 "Adres odbiorcy: UL. BIA\u0141OPR\u0104DNICKA 24D, KRAK\u00d3W",
-                "Nazwa odbiorcy: WSP\u00d3LNOTA MIESZKANIOWA PRZY UL. BIA\u0141OPR\u013dDNICKA 24D"
+                "Nazwa odbiorcy: WSP\u00d3LNOTA MIESZKANIOWA PRZY UL. BIA\u0141OPR\u013dDNICKA 24D",
+                "Nazwa odbiorcy: KORZENIAK PAWE\u0141",
+                "Nazwa odbiorcy: AGH MIASTECZKO STUDENCKIE"
             ]
         },
         {
             "Nazwa placowki": "Telefon",
             "Opis transakcji": [
-                "Nazwa odbiorcy: T-MOBILE POLSKA S.A."
+                "Nazwa odbiorcy: T-MOBILE POLSKA S.A.",
+                "Nazwa odbiorcy: POLKOMTEL SP. Z O.O.",
+                "Nazwa odbiorcy: POLKOMTEL",
+                "Nazwa odbiorcy: PLUS"
             ]
         },
         {
@@ -132,7 +282,10 @@
         {
             "Nazwa placowki": "Podatki",
             "Opis transakcji": [
-                "Nazwa odbiorcy: URZ\u0104D SKARBOWY W WYSOKIEM MAZOWIECKIEM"
+                "Nazwa odbiorcy: URZ\u0104D SKARBOWY W WYSOKIEM MAZOWIECKIEM",
+                "Nazwa nadawcy: ZUS",
+                "Nazwa nadawcy: POWSZECHNY ZAK\u0141AD UBEZPIECZE\u0143 SA",
+                "Nazwa nadawcy: Urz\u0161d Skarbowy w Wysokiem Mazowieckiem"
             ]
         }
     ],
@@ -155,14 +308,22 @@
                 "Lokalizacja: Kraj: POLSKA Miasto: SKAWINA Adres: BP-SKAWINA 882",
                 "Lokalizacja: Kraj: POLSKA Miasto: Bibice Adres: BP-BIBICE PRO-CAR Z.Don",
                 "Lokalizacja: Kraj: POLSKA Miasto: BIALOBRZEGI Adres: BP-JAGIELLO 304",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BP-RONDO 100"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BP-RONDO 100",
+                "Lokalizacja: Kraj: POLSKA Miasto: GROJEC Adres: BP-JABLUSZKO 264",
+                "Lokalizacja: Kraj: POLSKA Miasto: LAZY Adres: BP-LAZY 343",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BP-MIROWSKA 306",
+                "Lokalizacja: Kraj: POLSKA Miasto: JEDRZEJOW Adres: BP-POTOK MALY 611",
+                "Lokalizacja: Kraj: POLSKA Miasto: MODLNICA Adres: BP-JASNOGORSKA 319"
             ]
         },
         {
             "Nazwa placowki": "Lotos",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: BIELSK PODLAS Adres: LOTOS SF726 K.2",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LOTOS SF273 K.2"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LOTOS SF273 K.2",
+                "Lokalizacja: Kraj: POLSKA Miasto: EMILIANOW Adres: LOTOS SF396 K.2",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LOTOS PALIWA SF 603",
+                "Lokalizacja: Kraj: POLSKA Miasto: WITOWICE Adres: LOTOS PALIWA SF 803"
             ]
         },
         {
@@ -172,14 +333,20 @@
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SHELL 07",
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: KFC 05",
                 "Lokalizacja: Kraj: POLSKA Miasto: Stara Blotnic Adres: SHELL",
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SPOLEM"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SPOLEM",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SHELL 05",
+                "Lokalizacja: Kraj: POLSKA Miasto: Debica Adres: SHELL",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: KFC 08",
+                "Lokalizacja: Kraj: S\u0141OWENIA Miasto: Maribor-Fram Adres: Shell Truck Cent. Maribor",
+                "Lokalizacja: Kraj: POLSKA Miasto: Jasienica Adres: SHELL"
             ]
         },
         {
             "Nazwa placowki": "Inne",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CIRCLE K KRAKOW, L",
-                "Lokalizacja: Kraj: POLSKA Miasto: Broniszew Adres: 392, MOP Jozefow S7 E"
+                "Lokalizacja: Kraj: POLSKA Miasto: Broniszew Adres: 392, MOP Jozefow S7 E",
+                "Lokalizacja: Kraj: POLSKA Miasto: Zwardon Adres: Stacja Paliw Moya nr 10"
             ]
         },
         {
@@ -187,7 +354,11 @@
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: BIERTOWICE Adres: ORLEN 01",
                 "Lokalizacja: Kraj: POLSKA Miasto: JAWORNIK Adres: ORLEN DOFO 02",
-                "Lokalizacja: Kraj: POLSKA Miasto: LACZNA Adres: ORLEN 01"
+                "Lokalizacja: Kraj: POLSKA Miasto: LACZNA Adres: ORLEN 01",
+                "Lokalizacja: Kraj: POLSKA Miasto: WYSOKIE MAZOW Adres: ORLEN 01",
+                "Lokalizacja: Kraj: POLSKA Miasto: SUCHA Adres: ORLEN 01",
+                "Lokalizacja: Kraj: POLSKA Miasto: Tarczyn Adres: ORLEN",
+                "Lokalizacja: Kraj: POLSKA Miasto: Bolkow Adres: ORLEN"
             ]
         }
     ],
@@ -213,7 +384,40 @@
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MANZANA Restaurant & 01",
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MOA Burger",
                 "Lokalizacja: Kraj: POLSKA Miasto: BIELSKO-BIALA Adres: MCDONALDS 530, BIELSKO",
-                "Lokalizacja: Kraj: POLSKA Miasto: PROMNA-KOLONI Adres: KFC"
+                "Lokalizacja: Kraj: POLSKA Miasto: PROMNA-KOLONI Adres: KFC",
+                "Lokalizacja: Kraj: POLSKA Miasto: LESKO Adres: ROMA PIZZERIA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RESTAURACJA MAMMAMIA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: INDUS TANDOOR",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: NOWY KRAFTOWY",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BRONOWICE KRAKOW",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: McDonalds 480 Krakow 18",
+                "Lokalizacja: Kraj: POLSKA Miasto: Strzegom Adres: McDonalds 423 Strzegom",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skawina Adres: Valeo",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skawina Adres: SODEXO - Valeo Skawina",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PL. NOWY 4A",
+                "Lokalizacja: Kraj: POLSKA Miasto: JELESNIA Adres: RESTAURACJA WLOSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skawina Adres: Valeo chlod.stol.nr.2 G",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RESTAURACJA BOSCAIOLA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Da Grasso Krakow",
+                "Lokalizacja: Kraj: POLSKA Miasto: Stara Blotnic Adres: BAR U STACHA I US 3228",
+                "Lokalizacja: Kraj: POLSKA Miasto: Czechowice-Dz Adres: DELISSO",
+                "Lokalizacja: Kraj: POLSKA Miasto: Czechowice-Dz Adres: KFC",
+                "Lokalizacja: Kraj: POLSKA Miasto: Bielany Wrocl Adres: KFC 01",
+                "Lokalizacja: Kraj: POLSKA Miasto: Kozlow Adres: McDonalds 292 MOP Kozlo",
+                "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: DWOR KUZNICZKI",
+                "Lokalizacja: Kraj: POLSKA Miasto: GDYNIA Adres: TAWERNA ORLOWSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Gora Sw Anny Adres: KFC",
+                "Lokalizacja: Kraj: POLSKA Miasto: Kozlow Adres: McDonalds 293 MOP Racho",
+                "Lokalizacja: Kraj: POLSKA Miasto: BIELANY WROCL Adres: KEBAB HUT",
+                "Lokalizacja: Kraj: POLSKA Miasto: Olawa Adres: McDonalds",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: EDO Fusion",
+                "Lokalizacja: Kraj: POLSKA Miasto: Wiazow Adres: McDonalds",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RESTAURACJA PAPRYCZKI 5",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MONOPOLOWY",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MAMMA MIA RESTAURACJA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: McDonalds",
+                "Lokalizacja: Kraj: POLSKA Miasto: Nowy Targ Adres: McDonalds",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Restauracja Farina ul.S"
             ]
         },
         {
@@ -225,13 +429,25 @@
                 "Kraj: POLSKA Miasto: KRAKOW Adres: FORTY FORTY SP J",
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: WANDA FRACZEK KROLOWA",
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Pizza Hut",
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ZAPIEKANKI KRAKOWSKIE"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ZAPIEKANKI KRAKOWSKIE",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KLUB FRAME SNOOKER & BI",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PUB ULICA KROKODYLI",
+                "Lokalizacja: Kraj: POLSKA Miasto: KATOWICE Adres: SEVI KEBAB GALERIA SILESI",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Domowka Cafe",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KLUB NA KOTLOWEM",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Galaxy S.C.",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: JAZZ FAUST CAFE",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PIZZERIA GORA OLIMP"
             ]
         },
         {
             "Nazwa placowki": "Przyjemno\u015bci",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: ZIELONKI Adres: LODOWA CHATKA K"
+                "Lokalizacja: Kraj: POLSKA Miasto: ZIELONKI Adres: LODOWA CHATKA K",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CAPPUCCINO IGA UNISZEWSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FRIENDS COFFEE",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CUKIERNIA MICHALEK",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: CAFE BOTANICA"
             ]
         }
     ],
@@ -244,19 +460,54 @@
             "Nazwa placowki": "Zalando",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: NIEMCY Miasto: Berlin Adres: Zalando Payments",
-                "Lokalizacja: Kraj: NIEMCY Miasto: BERLIN Adres: HTTPS://WWW.ZALANDO-LOUNG"
+                "Lokalizacja: Kraj: NIEMCY Miasto: BERLIN Adres: HTTPS://WWW.ZALANDO-LOUNG",
+                "Lokalizacja: Kraj: NIEMCY Miasto: BERLIN Adres: ZALANDO PL"
             ]
         },
         {
             "Nazwa placowki": "Inne",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: FRANCJA Miasto: Clichy Adres: ETAMPL"
+                "Lokalizacja: Kraj: FRANCJA Miasto: Clichy Adres: ETAMPL",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Wolczanka 05",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlnica Adres: BRAND Collection - Krak",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka Adres: Salon Pako Lorente",
+                "Lokalizacja: Kraj: POLSKA Miasto: MODLNICZKA Adres: MEDICINE",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka Adres: VENEZIA 0191",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka Adres: LANCERTO S.A. FUTURA PA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Wojas S.A.",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: 185 CH Galeria Krakowska",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka Adres: LEE WRANGLER Factory",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LPP RESERVED 1911803",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LPP HOUSE 3112039",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Wolczanka",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LPP RESERVED 1912141",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: HUMANIC Galeria Krakows",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: H AND M BONARKA KASA 6",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Deichmann-Obuwie Sp.z.o.o",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LPP RESERVED 1912109",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: H AND M  GAL.KRAKOWSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: MODLNICZKA Adres: DIVERSE SKLEP",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UMBRO G. KRAKOWSKA SKL",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PULL & BEAR GALERIA KR",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: H AND M KRAKOW 131 KAS",
+                "Lokalizacja: Kraj: POLSKA Miasto: MODLNICZKA Adres: BIG STAR SKLEP AGENCYJ",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: C&A 611 Krakow-ECE",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka Adres: Futura Park Krakow, lok",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RESERVED 1911803",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CROPP 1511444",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Galeria Krakowska KUKAR"
             ]
         },
         {
             "Nazwa placowki": "eObuwie",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: Zielona Gora Adres: eobuwie.com.pl"
+            ]
+        },
+        {
+            "Nazwa placowki": "Decathlon",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DECATHLON KRAKOW PLAZA"
             ]
         }
     ],
@@ -269,7 +520,14 @@
             "Nazwa placowki": "Paypro",
             "Opis transakcji": [
                 "Adres odbiorcy: UL. KANCLERSKA 15 60-327 POZNA\u0143",
-                "Adres odbiorcy: UL. HAFFNERA 6 81-717 SOPOT"
+                "Adres odbiorcy: UL. HAFFNERA 6 81-717 SOPOT",
+                "Nazwa nadawcy: PAYPRO SP\u00d3\u0141KA AKCYJNA UL. KANCLERSK A 15 60-327 POZNA\u0143",
+                "Adres odbiorcy: UL. KANCLERSKA 15 60-327 POZNAN",
+                "Nazwa odbiorcy: PAYU SA",
+                "Nazwa odbiorcy: DIALCOM24 SP. Z O.O. PRZELEWY24",
+                "Nazwa odbiorcy: PRZELEWY 24 DIALCOM24 SP. Z O.O.",
+                "Nazwa odbiorcy: PAYU S.A.",
+                "Nazwa nadawcy: PAYU SP\u00d3\u0141KA AKCYJNA UL. MARCELI\u0143SKA 90"
             ]
         },
         {
@@ -282,13 +540,16 @@
             "Nazwa placowki": "Allegro",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: Poznan Adres: PayU*Allegro",
-                "Adres odbiorcy: UL. GRUNWALDZKA 182 60-166 POZNA\u0143"
+                "Adres odbiorcy: UL. GRUNWALDZKA 182 60-166 POZNA\u0143",
+                "Nazwa nadawcy: PAYU SP\u00d3\u0141KA AKCYJNA UL. GRUNWALDZKA 182"
             ]
         },
         {
             "Nazwa placowki": "DotPay",
             "Opis transakcji": [
-                "Adres odbiorcy: UL. WIELICKA 28B 30-552 KRAK\u00d3W"
+                "Adres odbiorcy: UL. WIELICKA 28B 30-552 KRAK\u00d3W",
+                "Adres odbiorcy: UL. WIELICKA 72 30-552 KRAK\u00d3W",
+                "Nazwa odbiorcy: DOTPAY S.A."
             ]
         }
     ],
@@ -303,13 +564,17 @@
                 "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: A H KROKODYL",
                 "Lokalizacja: Kraj: POLSKA Miasto: Zabierzow Adres: P.P.H ARAB Stanis26720",
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KARUSEK.COM.PL SP. Z O.",
-                "Nazwa odbiorcy: KLUB LATAJ\u013dCE PSY"
+                "Nazwa odbiorcy: KLUB LATAJ\u013dCE PSY",
+                "Lokalizacja: Kraj: POLSKA Miasto: MODLNICZKA Adres: SKLEP MAXI ZOO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SKLEP ZOOLOGICZNY DAMIA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KARUSEK.COM.PL"
             ]
         },
         {
             "Nazwa placowki": "Weterynarz",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: GABINET \"MIAU HAU\""
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: GABINET \"MIAU HAU\"",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: AMICUS s.c."
             ]
         }
     ],
@@ -326,7 +591,9 @@
         },
         {
             "Nazwa placowki": "Spotify",
-            "Opis transakcji": []
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: SZWECJA Miasto: Stockholm Adres: Spotify P002C1FABD"
+            ]
         },
         {
             "Nazwa placowki": "HBO",
@@ -348,7 +615,11 @@
         {
             "Nazwa placowki": "Idea Bank",
             "Opis transakcji": [
-                "Nazwa odbiorcy: RAFA\u0141 BRZOZOWSKI"
+                "Nazwa odbiorcy: RAFA\u0141 BRZOZOWSKI",
+                "Nazwa nadawcy: RAFA\u0141 BRZOZOWSKI",
+                "Nazwa nadawcy: IDEA BANK",
+                "Nazwa odbiorcy: IDEA BANK",
+                "Nazwa nadawcy: Rafa\u0142 Brzozowski"
             ]
         },
         {
@@ -357,6 +628,20 @@
                 "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: GBR Odbiorca: Revolut**9720*",
                 "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: REVOLUT.COM Adres: REVOLUT*",
                 "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: REVOLUT.COM Adres: REVOLUT*9720*"
+            ]
+        },
+        {
+            "Nazwa placowki": "Alior",
+            "Opis transakcji": [
+                "Nazwa nadawcy: Alior Bank SA",
+                "Nazwa odbiorcy: ALIOR BANK"
+            ]
+        },
+        {
+            "Nazwa placowki": "Inne",
+            "Opis transakcji": [
+                "Adres nadawcy: UL.ROBOTNICZA 23 18-210 SZEPIETOWO POL",
+                "Adres nadawcy: UL.RABOTNICZA 23 18-210 SZEPIETOWO"
             ]
         }
     ],
@@ -369,7 +654,11 @@
             "Nazwa placowki": "Pensja",
             "Opis transakcji": [
                 "Nazwa nadawcy: TEAMTECHNIK PRODUCTION TECHNOLOGY SP. Z O.O.",
-                "Nazwa nadawcy: TEAMTECHNIK PRODUCTION TECHNOLOGYSP . Z O.O."
+                "Nazwa nadawcy: TEAMTECHNIK PRODUCTION TECHNOLOGYSP . Z O.O.",
+                "Nazwa nadawcy: DESITECH SP\u00d3\u0141KA Z OGRANICZON\u013d ODPOWIEDZIALNO\u008cCI\u013d",
+                "Nazwa nadawcy: DESITECH SP\u00d3\u0141KA Z OGRANICZON\u013d ODPOW IEDZIALNO\u008cCI\u013d",
+                "Nazwa nadawcy: ELECTRIC-CONTROL PIOTR PIWOWO\u0143SKI",
+                "Nazwa nadawcy: ENERGASEL SP\u00d3\u0141KA Z OGRANICZON\u013d ODPO WIEDZIALNO\u008cCI\u013d"
             ]
         }
     ],
@@ -395,13 +684,22 @@
             "Nazwa placowki": "Castorama",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: CASTORAMA KRAKOW 2",
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Castorama"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Castorama",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: CASTORAMA KRAKOW PILOTO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CASTORAMA KRAKOW 2",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SPP MIASTA KRAKOW"
             ]
         },
         {
             "Nazwa placowki": "Mr\u00f3wka",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KALWARIA ZEBR Adres: MARKET PSB MROWKA"
+            ]
+        },
+        {
+            "Nazwa placowki": "Inne",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MARKET OBI 059 MB KASA"
             ]
         }
     ],
@@ -413,7 +711,11 @@
         {
             "Nazwa placowki": "Stomatolog",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DENT 22"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DENT 22",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ORLEN 35",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZIELINSKA 3",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SZPITALNA 15",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: STAROWISLNA 17"
             ]
         },
         {
@@ -426,7 +728,15 @@
             "Nazwa placowki": "Hotel",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: INTERNET Adres: AGODA.COM",
-                "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: 14158005959 Adres: AIRBNB"
+                "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: 14158005959 Adres: AIRBNB",
+                "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: BELFAST Adres: BOOKING.COM_1187925480_FR",
+                "Lokalizacja: Kraj: POLSKA Miasto: KARPACZ Adres: SCHRONISKO PTTK SAMOTNIA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Przesieka Adres: Schronisko Odrodzenie",
+                "Lokalizacja: Kraj: POLSKA Miasto: Karpacz Adres: Every Sky",
+                "Nazwa odbiorcy: SCHRONISKO SAMOTNIA",
+                "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: AIRBNB.COM Adres: AIRBNB.COM",
+                "Lokalizacja: Kraj: POLSKA Miasto: SZCZAWNO-ZDRO Adres: HOTEL",
+                "Nazwa odbiorcy: O\u008cRODEK WYPOCZYNKOWY SZCZELINIEC"
             ]
         },
         {
@@ -438,7 +748,59 @@
         {
             "Nazwa placowki": "Inne",
             "Opis transakcji": [
-                "Nazwa odbiorcy: AGATA KWIECIE\u0143 - FOTO STUDIO"
+                "Nazwa odbiorcy: AGATA KWIECIE\u0143 - FOTO STUDIO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PRALNIA CIOCIA RENIA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MELLOW SP. Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LA BAGUETTE",
+                "Nazwa odbiorcy: STOWARZYSZENIE AUTOR\u00d3W ZAIKSUL. HIPOTECZNA 200-950 WARSZAWA",
+                "Nazwa odbiorcy: MELLOW SP. Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: WROCLAW Adres: panoramaraclawicka.pl",
+                "Nazwa odbiorcy: AGATA KWIECIE\u0143",
+                "Nazwa odbiorcy: BELLOMATRIMONIO",
+                "Nazwa nadawcy: DPD STREFA PACZKI SP. Z O.O. UL.MINERALNA 15",
+                "Nazwa nadawcy: PARTNER CARS ARTUR SROKA G\u0141OGOCZ\u00d3W 914",
+                "Nazwa odbiorcy: PARTNER CARS ARTUR SROKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: SALON OPTYCZNY DP OPTYK",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: www.groupon.p Adres: www.groupon.pl",
+                "Lokalizacja: Kraj: POLSKA Miasto: BIALKA TATRZA Adres: BANIA SKI",
+                "Lokalizacja: Kraj: POLSKA Miasto: Jurgow Adres: Stacja Narciarska Ko 01",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: WE-RO SPOLKA Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: BIALKA TATRZA Adres: TERMA BANIA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Walbrzych Adres: Hotel AQUA ZDROJ",
+                "Nazwa odbiorcy: UNIWERSYTET JAGIELLO\u0143SKI",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: AWITEKS SPOLKA Z O.O.SP.K",
+                "Nazwa odbiorcy: WIMIR, AGH",
+                "Nazwa nadawcy: AKADEMIA G\u00d3RNICZO-HUTNICZA IM.S.STA SZICA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SKLEP MUZYCZNY RIFF",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SKLEP MUZYCZNY MX MUSI",
+                "Lokalizacja: Kraj: SZWAJCARIA Miasto: help.ea.com Adres: EA *ORIGIN.COM",
+                "Nazwa odbiorcy: STOWARZYSZENIE KIBIC\u00d3W ARSENAL POLAND SUPPORTERS CLUB",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SCANMED REJESTR.CENTRA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SATURN PLANET KASA 1",
+                "Nazwa odbiorcy: AGITO S.A.",
+                "Lokalizacja: Kraj: WIELKA BRYTANIA Miasto: 425-889-9642 Adres: STEAMPOWERED.COM",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SATURN PLANET KASA 3"
+            ]
+        },
+        {
+            "Nazwa placowki": "Fryzjer",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DOCTOR BARBER BARTLOMIEJ",
+                "Nazwa odbiorcy: FOTOGET IRINA \u0141APPO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: CAMELEON SALON FRYZUR",
+                "Lokalizacja: Kraj: FRANCJA Miasto: 75LONDON Adres: WWW.STEAMPOWERE 4518054"
+            ]
+        },
+        {
+            "Nazwa placowki": "Bilety lotnicze",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     22400000RTGYN",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     22400000JQ1LT",
+                "Lokalizacja: Kraj: NIEMCY Miasto: DUESSELDORF Adres: EUROWINGS   BGMEXH_139003",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     22400000YS12H",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     IQ7HPQ0",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     22400000CLN7M",
+                "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     EJ64GF0"
             ]
         }
     ],
@@ -467,7 +829,91 @@
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PLANET CASH SIEWNA 44",
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Nowakowski & Szymanski",
                 "Lokalizacja: Kraj: POLSKA Miasto: BIELSKO-BIALA Adres: F.T.H.G RYSZARD DZIKI",
-                "Nazwa odbiorcy: FUNDACJA IDEA"
+                "Nazwa odbiorcy: FUNDACJA IDEA",
+                "nan",
+                "Lokalizacja: Kraj: POLSKA Miasto: Koniusza Adres: SumUp  *ETNA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Grazyny 4",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: KROLOWEJ JADWIGI, 238",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ABCONSULTING SP. Z O.O. B",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Bociana 3",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ANDRZEJ BULANDA FIRMA A",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: VREPUBLIC S. C.",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: OMERTA JAROSLAW GUZDA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: NO LIMIT POK AM KRAKOW",
+                "Lokalizacja: Kraj: POLSKA Miasto: Skarzysko-Kam Adres: Policja mandat karny",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: HALA GLOWNA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SPP MIASTA KRAKOW",
+                "Nazwa nadawcy: MIVO Sp\u00f3\u0142ka z Ograniczon\u0161 Odpowiedz ialno\u009cci\u0161 Sp\u00f3\u0142ka Komandytowa",
+                "Nazwa nadawcy: IN  OUT KATARZYNA TRZCI\u0143SKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Balice Adres: Aelia",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: FHU ZBIGNIEW MALE40726",
+                "Nazwa nadawcy: DIALCOM24 SP. Z O.O.",
+                "Nazwa odbiorcy: DIALCOM24 SP. Z O.O.",
+                "Adres odbiorcy: UL. CZACKIEGO 7 M.9 00-043 WARSZAWA",
+                "Lokalizacja: Kraj: POLSKA Miasto: WROCLAW Adres: AUTOMATY STATOR",
+                "Nazwa odbiorcy: PORTAL TATRZA\u0143SKI SP. Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: OZAROW MAZOWI Adres: PW PLOH SP.Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: ZORY Adres: AUTOMATY AS VENDING",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: M. Niepsuj i K. P25340",
+                "Lokalizacja: Kraj: POLSKA Miasto: Bukowina Tatr Adres: PW Wanta Zofia Cudzich",
+                "Lokalizacja: Kraj: POLSKA Miasto: OGRODZIENIEC Adres: NOTA BENE ADRIANNA BILSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: APTEKA SLONECZNA 02",
+                "Nazwa odbiorcy: AGNIESZKA WO\u008c",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Salon Firmowy APART  02",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Megasklep Sportowy DECA",
+                "Lokalizacja: Kraj: POLSKA Miasto: 97237694380 Adres: NYX*Stator",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: FHU WIKA Euro Sklep",
+                "Lokalizacja: Kraj: POLSKA Miasto: 97237694380 Adres: NYX*AS Vending",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Mal. Urzad Wojewodzki",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Dluga 1",
+                "Nazwa odbiorcy: EURO-NET SP. Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SLAWOMIR NIGBOROWICZ FIRM",
+                "Nazwa odbiorcy: EWELINA SZALACH",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: TARMAX SP. Z O.O. SP.",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krak w Adres: ul. Starowislna 56",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DR. MAX APTEKA",
+                "Nazwa odbiorcy: AGNIESZKA TEODORCZAK",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Salon Firmowy APART CH",
+                "Nazwa nadawcy: Agnieszka Korzeniak",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Wadowicka 6",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ZIKO APTEKA 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: LUNA MARIUSZ GUZIK",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FIRMA KAROL ANDRZEJ KACZO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: NA ZDROWKO",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SKLEP PODROZNIKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Budryka 7",
+                "Nazwa odbiorcy: SYLWESTER KURNETA",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Szpitalna 40",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Czarnowiejska 84",
+                "Nazwa odbiorcy: NEO24.PL",
+                "Nazwa odbiorcy: MF",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Kapelanka 54",
+                "Nazwa odbiorcy: A.H. REMA S.C. ANETTA KIETLI\u0143SKA, PAWE\u0141 KIETLI\u0143SKI",
+                "Nazwa nadawcy: Brzozowska Eugenia Piekuty Urbany 22",
+                "Nazwa odbiorcy: CMUJ WYDZIA\u0141 FARMACEUTYCZNY",
+                "Nazwa odbiorcy: UNIWERSYTET JAGIELLO\u0143SKI COLLEGIUM MEDICUM",
+                "Nazwa odbiorcy: AKADEMIA G\u00d3RNICZO-HUTNICZA IM. STANIS\u0141AWA STASZICA W KRAKOWIE",
+                "Nazwa odbiorcy: TRANSFERUJ.PL",
+                "Nazwa nadawcy: G\u00d3RNY PRZEMYS\u0141AW NAWROCKIEGO 22B\\22",
+                "Tytu\u0142: DO\u0141ADOWANIE TELEFONU +48 724131094 PLAY IDENTYFIKATOR OPERACJI: 20418531",
+                "Nazwa odbiorcy: MA\u0141OPOLSKI URZ\u013dD WOJEW\u00d3DZKI W KRAKOWIE",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MOBILE STORE s.c. Ga 01",
+                "Nazwa odbiorcy: FHU BIG-GAME",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RO-WIK CZARNOWIEJSKA",
+                "Nazwa odbiorcy: ARE JAKUB MALEWICZ",
+                "Tytu\u0142: DO\u0141ADOWANIE TELEFONU +48 781790989 MIXPLUS IDENTYFIKATOR OPERACJI: 071497681",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MATRAS Ksiegarnia KS031",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BIJOU BRIGITTE GAL.KRA",
+                "Tytu\u0142: DO\u0141ADOWANIE TELEFONU +48 724131094 PLAY IDENTYFIKATOR OPERACJI: 15343048",
+                "Nazwa odbiorcy: ANNA KRYCZKA UL. KAZIMIERZA WIELKIEGO 25/31",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FIRMA KAROL A.KACZOROWSKI",
+                "Nazwa odbiorcy: INVENTORS.PL S.C.",
+                "Nazwa odbiorcy: INTELIGO FINANCIAL SERVICES S.A.",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PIOTRUS PAN KSIEGARNIA",
+                "Nazwa nadawcy: Pa\u0142ubicka Jolanta Pa\u0142ubicki Mariusz",
+                "Nazwa nadawcy: UP ZAKOPANE 1 KRUPOWKI 20",
+                "Nazwa nadawcy: COMPUTER RECYCLING KATARZYNA RADICZ 63440 RAD\u0141\u00d3W",
+                "Nazwa nadawcy: WER \u0141\u00d3D\u008f AL.W\u0141\u00d3KNIARZY 227"
             ]
         }
     ],
@@ -496,7 +942,109 @@
                 "Nazwa odbiorcy: SEBASTIAN JAROSZ",
                 "Nazwa nadawcy: MARCIN CIERPIATKA",
                 "Nazwa odbiorcy: MARCIN CIERPIATKA",
-                "Nazwa nadawcy: Krystian Szarek"
+                "Nazwa nadawcy: Krystian Szarek",
+                "Nazwa odbiorcy: KAROL WIELOPOLSKI",
+                "Nazwa odbiorcy: DAWID KUREK",
+                "Nazwa nadawcy: ROBERT JARZ\u013dBEK",
+                "Nazwa odbiorcy: MONIKA SZUMA\u0143SKA",
+                "Nazwa odbiorcy: \u0141UKASZ MARCZUK",
+                "Nazwa odbiorcy: KRZYSZTOF POMIET\u0141O",
+                "Nazwa nadawcy: PAWE\u0141 \u0141 NOWAK SOB\u00d3W 26/6 27-530 O\u017bA R\u00d3W",
+                "Nazwa odbiorcy: DAWID SZEWCZUK",
+                "Nazwa nadawcy: Brzozowski Wojciech Krzysztof Brzozowska Janina",
+                "Nazwa nadawcy: ALICJA KAMILA KOSA\u0141KA UL. BA\u0141TYCKA 15B",
+                "Nazwa nadawcy: \u0141UKASZ PINDEL ZAKRZ\u00d3W 248",
+                "Nazwa odbiorcy: ALICJA KAMILA KOSA\u0141KA UL. BA\u0141TYCKA 15B",
+                "Nazwa odbiorcy: WOJCIECH PRUSI\u0143SKI",
+                "Nazwa odbiorcy: KAROL WPLSKI",
+                "Nazwa odbiorcy: GRZEGORZ RYNIEWICZ",
+                "Nazwa nadawcy: REMBISZEWSKI JAKUB ul. CEDZYNA 86 25-900 KIELCE",
+                "Nazwa odbiorcy: KRYSTIAN SZAREK",
+                "Nazwa odbiorcy: JAKUB REMBISZEWSKI",
+                "Nazwa odbiorcy: KRZYSZTOFA BRZOZOWSKA",
+                "Nazwa odbiorcy: KAMIL GUCWA",
+                "Nazwa odbiorcy: JAKUB BOLIG\u0141OWA",
+                "Nazwa nadawcy: PAULINA  BRZOZOWSKA",
+                "Nazwa odbiorcy: ADA MATUSIAK",
+                "Nazwa odbiorcy: MARCIN STASZEK",
+                "Nazwa odbiorcy: JAKUB JANIA",
+                "Nazwa nadawcy: IZABELA  BRZOZOWSKA",
+                "Nazwa odbiorcy: MARTYNA G\u013dSIOR",
+                "Nazwa nadawcy: MARTYNA G\u013dSIOR",
+                "Nazwa nadawcy: ROBERT KOSA\u0141KA UL. BA\u0141TYCKA 15B",
+                "Nazwa nadawcy: Tomasz Baran",
+                "Nazwa nadawcy: MONIKA SZUMA\u0143SKA UL. STEFANA BATOREGO 17",
+                "Nazwa odbiorcy: PAULINA OLCO\u0143",
+                "Nazwa nadawcy: Krzysztof Gruszewski",
+                "Nazwa nadawcy: MICHA\u0141 KAMIL JANUS",
+                "Nazwa nadawcy: ANNA TERESA P\u0118GIEL",
+                "Nazwa nadawcy: GUCWA KAMIL SIKORZYCE 13",
+                "Nazwa nadawcy: Pawe\u0142 Polakiewicz",
+                "Nazwa nadawcy: GRZEGORZ JAN RYNIEWICZ",
+                "Nazwa odbiorcy: TOMASZ KUREK",
+                "Nazwa odbiorcy: MA\u0141GORZATA BOMBA",
+                "Nazwa odbiorcy: KRZYSZTOF GRUSZEWSKI",
+                "Nazwa odbiorcy: WOJCIECH BRZOZOWSKI",
+                "Nazwa odbiorcy: PAWE\u0141 POLAKIEWICZ",
+                "Nazwa odbiorcy: JOANNA KOZ\u0141OWSKA",
+                "Nazwa nadawcy: PAULINA OLCO\u0143 GROTA ROWECKIEGO 41/35",
+                "Nazwa odbiorcy: KATARZYNA JARZ\u013dBEK",
+                "Nazwa nadawcy: Pani MAGDALENA M \u0141AZARZ UL. URZ\u0118DNI CZA 3A/37 25-729 KIELCE",
+                "Nazwa nadawcy: Andrzej K\u0119dziora",
+                "Nazwa odbiorcy: ALICJA KOSA\u0141KA",
+                "Nazwa odbiorcy: MAGDALENA \u0141AZARZ",
+                "Nazwa odbiorcy: MICHA\u0141 JANUS",
+                "Nazwa nadawcy: ANITA ANNA OR\u0141OWICZ",
+                "Nazwa nadawcy: ADRIANNA MATUSIAK",
+                "Nazwa nadawcy: NOWAK PAWE\u0141 SOB\u00d3W 26\\6",
+                "Nazwa nadawcy: JOANNA  KOZ\u0141OWSKA",
+                "Nazwa odbiorcy: ANNA JUSZCZAK",
+                "Nazwa nadawcy: Wojciech Brzozowski",
+                "Nazwa odbiorcy: KATARZYNA KOPACZ",
+                "Nazwa odbiorcy: MAGDALENA W\u00d3JCIK",
+                "Nazwa odbiorcy: PIOTR SIKORSKI",
+                "Nazwa odbiorcy: JANUS MICHA\u0141",
+                "Nazwa nadawcy: IWONA OLCO\u0143 UL. GROTA ROWECKIEGO 41/35",
+                "Nazwa odbiorcy: ALEKSANDRA SZYMIK",
+                "Nazwa odbiorcy: PRZEMYS\u0141AW DOBRE\u0143KO",
+                "Nazwa nadawcy: PRZEMYS\u0141AW DOBRE\u0143KO",
+                "Nazwa odbiorcy: BARTOSZ SZLACHCIC",
+                "Nazwa nadawcy: BRZ\u0118K KATARZYNA MAGDALENA FELICJANEK 1\\2",
+                "Nazwa odbiorcy: KAROLINA MALINOWSKA",
+                "Nazwa nadawcy: MAREK PAWE\u0141 KOZUBEK",
+                "Nazwa nadawcy: KAMILA  BORUCKA",
+                "Nazwa nadawcy: TATARA MICHA\u0141 PIOTROWICKA 30B\\9",
+                "Nazwa nadawcy: PATRYK M FRANCZYK ZALESIE 158 34-60 8 ZALESIE",
+                "Nazwa odbiorcy: KAMIL PISKA",
+                "Nazwa nadawcy: MARLENA  KONICKA",
+                "Nazwa odbiorcy: DOMINIKA JOANNA KARNIA",
+                "Nazwa odbiorcy: PAULINA KRZYSZKOWSKA",
+                "Nazwa nadawcy: CA\u0141A KATARZYNA OSIEDLE O\u008cWIECENIA 44/187A",
+                "Nazwa nadawcy: GRZEGORZ BANIA BYDGOSKA 45",
+                "Nazwa odbiorcy: MICHA\u0141 FRYDRYCH",
+                "Nazwa odbiorcy: PAWE\u0141 NOWAK",
+                "Nazwa odbiorcy: CA\u0141A KATARZYNA",
+                "Nazwa nadawcy: KATARZYNA KINGA CHOCHO\u0141EK WIOSENNA 15",
+                "Nazwa nadawcy: KAMIL  BRZOZOWSKI",
+                "Nazwa nadawcy: Brzozowski Wojciech Krzysztof",
+                "Nazwa odbiorcy: GRA\u017bYNA RYNDAK",
+                "Nazwa nadawcy: MARCIN JERZY SUMERA",
+                "Nazwa odbiorcy: SZYMON MOKRZYCKI",
+                "Nazwa nadawcy: Brzozowski Kamil",
+                "Nazwa nadawcy: PERCHEL PIOTR ZGODNA 18",
+                "Nazwa odbiorcy: JANUSZ DZIUBEK",
+                "Nazwa nadawcy: BEATA BZINKOWSKA POSTOWOJTOWNY 3/17",
+                "Nazwa nadawcy: KRZYSZTOF ADAM BROLA BIELOWICE 172",
+                "Nazwa odbiorcy: DAMIAN BZINKOWSKI",
+                "Nazwa nadawcy: PRZEMYS\u0141AW  DOBRE\u0143KO",
+                "Nazwa odbiorcy: ADAM BRZYSKI",
+                "Nazwa odbiorcy: MARCIN KUBIAK",
+                "Nazwa odbiorcy: \u0141UKASZ DOMISIEWICZ",
+                "Nazwa odbiorcy: KATARZYNA CHOCHO\u0141EK",
+                "Nazwa odbiorcy: GUCWA KAMIL",
+                "Nazwa nadawcy: BRZOZOWSKI WOJCIECH KRZYSZTOF",
+                "Nazwa odbiorcy: WOJCIECH KRZYSZTOF BRZOZOWSKI",
+                "Nazwa odbiorcy: PAULINA"
             ]
         }
     ],
@@ -508,13 +1056,21 @@
         {
             "Nazwa placowki": "Parking",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZDMK KRAKOW 1"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ZDMK KRAKOW 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: GALERIA KRAKOWSKA - PARKI",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: GALERIA KRAKOWSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MPK KRAKOW KKM 117",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: GALERIA KRAKOWSKA ONLINE",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: C&A GALERIA KRAKOWSKA"
             ]
         },
         {
             "Nazwa placowki": "Autostrady",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: AUTOSTRADY - SKYCASH"
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: AUTOSTRADY - SKYCASH",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: GDDKiA Karwiany  PPO",
+                "Lokalizacja: Kraj: POLSKA Miasto: Balice Adres: Stalexport Autostrada",
+                "Lokalizacja: Kraj: POLSKA Miasto: Myslowice Adres: Stalexport Autostrada"
             ]
         },
         {
@@ -529,14 +1085,43 @@
                 "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1911030350",
                 "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1910112311",
                 "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1910051113",
-                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1908272145"
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1908272145",
+                "Lokalizacja: Kraj: POLSKA Miasto: help.uber.com Adres: UBER TRIP HELP.UBER.COM",
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1907192314",
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: BOLT.EU /O/1907052233",
+                "Lokalizacja: Kraj: POLSKA Miasto: LISZKI Adres: MAREK BASTER TAXI OSOB",
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: TXFY.ME /O/1902222312",
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: TXFY.ME /OU/1902082346",
+                "Lokalizacja: Kraj: POLSKA Miasto: help.uber.com Adres: UBER TRIP NL2PM HELP.UBER",
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: TAXIFY 20181101_0008",
+                "Lokalizacja: Kraj: ESTONIA Miasto: Tallinn Adres: TAXIFY 20181028_0153",
+                "Lokalizacja: Kraj: HOLANDIA Miasto: help.uber.com Adres: UBER TRIP KEJNU HELP.UBER"
             ]
         },
         {
             "Nazwa placowki": "MPK",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: Poznan Adres: www.mobilet.pl",
-                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: BILETY SKYCASH"
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: BILETY SKYCASH",
+                "Nazwa odbiorcy: SKYCASH POLAND S.A.SIENNA 73",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: BILETY SKM KW SKYCASH",
+                "Nazwa nadawcy: ZARZ\u013dD INFRASTRUKTURY KOMUNALNEJ I TRANSPORTU",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: SKYCASH POLAND  MOBIPA",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: SKYCASH PREPAID GSM",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: BILETY SKM  KW SKYCASH",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: BILETY MPK ZTM KM SKYCASH",
+                "Nazwa odbiorcy: EBILET POLSKA SP. Z O.O.",
+                "Lokalizacja: Kraj: POLSKA Miasto: WARSZAWA Adres: SKYCASH POLAND S. A. MOTO"
+            ]
+        },
+        {
+            "Nazwa placowki": "PKP",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PKP Intercity 04",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PKP INTERCITY 03",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PKP Intercity 02",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: PKP Intercity",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PKP INTERCITY S.A."
             ]
         }
     ],
@@ -555,7 +1140,16 @@
             "Nazwa placowki": "Serwis",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MOTO-PRZEM",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: HONDA KREZEL & KREZEL"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: HONDA KREZEL & KREZEL",
+                "Nazwa odbiorcy: HONDA KR\u0118\u017bEL & KR\u0118\u017bEL",
+                "Nazwa odbiorcy: MM AUTO MAJEWSKI MICHA\u0141"
+            ]
+        },
+        {
+            "Nazwa placowki": "Ubezpieczenie",
+            "Opis transakcji": [
+                "Nazwa odbiorcy: LINK4 TOWARZYSTWO UBEZPIECZE\u0143 S.A",
+                "Nazwa odbiorcy: LINK4"
             ]
         }
     ],
@@ -568,7 +1162,93 @@
             "Nazwa placowki": "Squash",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: MIAZGA SQUASH",
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DP*SQUASH4YOUPL"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: DP*SQUASH4YOUPL",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: SQUALUS PAWEL MICHALSKI"
+            ]
+        },
+        {
+            "Nazwa placowki": "Si\u0142ownia",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Fitness Bratyslawska",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FITNESS PLATINIUM ONLINE"
+            ]
+        }
+    ],
+    "Bankomat": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Wyp\u0142ata",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PLANET CASH WYBICKIEGO 10",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Wielicka 79",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ul. Bozego Ciala 2",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka k. Adres: ul. Prof. A. Rozanskieg",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. PACHONSKIEGO 8",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Medweckiego 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: Balice Hala Przylotow O",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: A3191703/PEKAO/ZIELINSKA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: 1616000011/UL.MACKIEWICZA",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: WBK S.A./RYNEK GLOWNY 30",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: 1616000011/Balice Hala Pr",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: 1616000011/ULMEDWECKIEGO",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Fieldorfa Nilla 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.KARMELICKA 68A",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: GLOBALCASH/KOMUNY PARYSKI",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: POWSTANIA WARSZAWSKIEGO 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. DLUGA 12",
+                "Lokalizacja: Kraj: POLSKA Miasto: OSWIECIM Adres: UL.RYNEK GLOWNY 9",
+                "Lokalizacja: Kraj: POLSKA Miasto: SZEPIETOWO Adres: BPS WYSZYNSKIEGO 3",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Pradnicka 95",
+                "Lokalizacja: Kraj: REPUBLIKA CZESKA Miasto: Praha 1 Adres: 110 00 Celetna 3",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.GROTA ROWECKIEGO 7C",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL REYMONTA 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: BIEDRONKA DRUKARSKA 2",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.SZYMANOWSKIEGO 14",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ul. Kapelanka 54",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. BORSUCZA 12",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL.MILKOWSKIEGO 3",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: ECARD/KOMUNY PARYSKIEJ 1A",
+                "Lokalizacja: Kraj: POLSKA Miasto: SKAWINA Adres: UL.SLOWACKIEGO 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. BUDRYKA 6 (MIASTECZKO",
+                "Lokalizacja: Kraj: AUSTRIA Miasto: WIEN Adres: UNICREDIT BANK AUSTRIA AG",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: AL. POWS.WARSZAWSKIEGO 10",
+                "Lokalizacja: Kraj: POLSKA Miasto: WLADYSLAWOWO Adres: BGZ HALLERA 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RYNEK GLOWNY 30 (2-GI BAN",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL RYNEK GLOWNY 30",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: UL. KAMIENSKIEGO 11",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krasnobrod Adres: ul. 3 Maja 36",
+                "Lokalizacja: Kraj: POLSKA Miasto: WYSOKIE MAZ Adres: BGZ RYN.PILSUDSKIEGO 8",
+                "Lokalizacja: Kraj: POLSKA Miasto: Wladyslawowo Adres: ul. Sportowa/ Zeromskie",
+                "Lokalizacja: Kraj: POLSKA Miasto: Wladyslawowo Adres: ul. Towarowa 27",
+                "Lokalizacja: Kraj: POLSKA Miasto: Hel Adres: ul. Dworcowa 1",
+                "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: UL. PODWALE GRODZKIE",
+                "Lokalizacja: Kraj: POLSKA Miasto: WLADYSLAWOWO Adres: UL. HALLERA 19",
+                "Lokalizacja: Kraj: POLSKA Miasto: RYBNIK Adres: UL.ZORSKA 60",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: RYNEK GLOWNY 30",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: *DEUTSCHE BANK/UL.MOGIL",
+                "Lokalizacja: Kraj: POLSKA Miasto: NOWY TARG Adres: BGZ",
+                "Lokalizacja: Kraj: POLSKA Miasto: RYNEK J.P. 57 Adres: BGZ",
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: pl. J. Nowaka Jeziorans",
+                "Lokalizacja: Kraj: POLSKA Miasto: BIALYSTOK Adres: UL. KOLEJOWA 9",
+                "Lokalizacja: Kraj: POLSKA Miasto: GDANSK Adres: UL. JANA UPHAGENA 27",
+                "Lokalizacja: Kraj: POLSKA Miasto: WYSOKIE MAZ. Adres: UL. LUDOWA 17",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: AGH BUDYNEK C1"
+            ]
+        }
+    ],
+    "Dla mieszkania": [
+        {
+            "Nazwa placowki": "",
+            "Opis transakcji": []
+        },
+        {
+            "Nazwa placowki": "Pepco",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PEPCO 110030 KRAKOW 10",
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: PEPCO 110031 KRAKOW 13"
             ]
         }
     ]
