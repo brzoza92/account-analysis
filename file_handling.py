@@ -129,7 +129,6 @@ class File:
         self.ReadMain()    
         years_dict = {}
         for year in range(2010, dt.now().year + 1):
-            year_str = str(year)+ "-"
             years_dict[year] = 0
         dateColumn = self.main_file[self.main_file.columns[0]]
         amountColumn = self.main_file[self.main_file.columns[3]]
