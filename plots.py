@@ -9,7 +9,7 @@ class Chart:
         pass
 
 
-    def __UnpackDict__(self, data):
+    def _UnpackDict(self, data):
         """
         Takes values dictionary as input and returns
         list of lists as X and Y axis values for a chart
@@ -29,7 +29,7 @@ class Chart:
         Generates chart out of presented data. If pie_type is True then pie chart is generated
         """
 
-        values = self.__UnpackDict__(data)
+        values = self._UnpackDict(data)
 
         if pie_type:
             plt.pie(values[1], labels = values[0], shadow = True)

@@ -46,16 +46,16 @@ while(True):
                     print(index)
                     auto_search = new_json.FindDescription(str_description)
                     if auto_search != []:
-                        new_account.fillCatAndPlace(index, auto_search[0], auto_search[1])
+                        new_account.FillCatAndPlace(index, auto_search[0], auto_search[1])
                         print("Wybrano kategorie "+str(auto_search[0]) +" i miejsce o nazwie "+str(auto_search[1])+"\n")
                     else:
                         by_hand = True
-                        category = new_json.selectCategory()
+                        category = new_json.SelectCategory()
                         if category is None:
                             print("Błąd przy wyborze kategorii\n")
                             pass
                         else:
-                            place_id = new_json.selectPlaceIndex(category)
+                            place_id = new_json.SelectPlaceIndex(category)
                             if place_id is None:
                                 print("Błąd przy wyborze miejsca\n")    
                             else:
@@ -65,7 +65,7 @@ while(True):
                                     pass
                                 else:
                                     print("Wybrano kategorie "+category +" i miejsce o nazwie "+place)
-                                    new_account.fillCatAndPlace(index, category, place)
+                                    new_account.FillCatAndPlace(index, category, place)
                                     new_json.AddDescriptionTarget(category, place_id, str_description)
                 else:
                     print("Wszystkie dane wypelnione")

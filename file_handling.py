@@ -28,7 +28,7 @@ class File:
             print("File is not existing yet.")
             self.Create()
             
-    def __getMonthDict__(self):
+    def _getMonthDict(self):
         """
         Reinitialize dictionary of months. 
         """
@@ -40,13 +40,13 @@ class File:
                 month_no = str(i)
             self.months[month_no] = 0
         return self.months
-    def __getFileLength__(self):
+    def _getFileLength(self):
         """
         Returns the length of main file.
         """    
         self.length = self.main_file[self.main_file.columns[0]].count()
         return self.length
-    def __columnsCmp__(self, file):
+    def _columnsCmp(self, file):
         """
         Compare amount of columns of files.
         """
@@ -55,7 +55,7 @@ class File:
 
         return len(main_columns) != len(new_columns)    
     
-    def __columnsDiff__(self, file):
+    def _columnsDiff(self, file):
         """
         Returning the array with names of columns to be deleted out of new file.
         """
@@ -67,7 +67,7 @@ class File:
             to_erease_name.append(file.columns[column])
         return to_erease_name  
 
-    def __sortDictionary__(self, InDictionary):
+    def _sortDictionary(self, InDictionary):
         tmp_list = sorted(InDictionary.items(), key=lambda x: x[1], reverse = False)
         result = {}
         for item in tmp_list:
@@ -115,16 +115,12 @@ class File:
 
         
 
-        if self.__columnsCmp__(df_new_data):         #check if same type of csv data
-            df_new_data.drop(columns = self.__columnsDiff__(df_new_data), inplace = True)
+        if self._columnsCmp(df_new_data):         #check if same type of csv data
+            df_new_data.drop(columns = self._columnsDiff(df_new_data), inplace = True)
         
         df_new_data.to_csv(self.path, index = False, header = False, mode = 'a', encoding = self.encoding)
         
-        self.ReadMain()     #Main file needs to be read again (refreshed) after writing to file done above.
-        self.main_file.drop_duplicates(inplace = True)
-        self.main_file.to_csv(self.path, index = False, encoding = self.encoding)
-
-
+        self.ClearDuplicates()
         return True
 
     def SplitYears(self):
@@ -156,7 +152,7 @@ class File:
 
         During development add a year selection. In default, actual year.
         """
-        self.__getMonthDict__()
+        self._getMonthDict()
         self.ReadMain()    
 
         year_str = str(year) + "-"
@@ -210,7 +206,7 @@ class File:
             cat_edited_file = edited_file.loc[edited_file[edited_file.columns[11]] == category] 
             result = round(cat_edited_file[cat_edited_file.columns[3]].sum(), 2)
             cat_dictionary[category] =  result * -1      
-        return self.__sortDictionary__(cat_dictionary)
+        return self._sortDictionary(cat_dictionary)
 
 
     def FindEmpty(self):
@@ -221,7 +217,7 @@ class File:
         categoryColumn = self.main_file[self.main_file.columns[11]]
         placeColumn = self.main_file[self.main_file.columns[12]]
 
-        for row in range(0, self.__getFileLength__()):
+        for row in range(0, self._getFileLength()):
             value_cat = str(categoryColumn[row])
             value_place = str(placeColumn[row])
             if  (value_cat or value_place) == "nan":
@@ -242,7 +238,7 @@ class File:
         else:  
             return True
 
-    def fillCatAndPlace(self, index, category, place):
+    def FillCatAndPlace(self, index, category, place):
         """
         Loads prepared data into category and place of selected row of file
         """
