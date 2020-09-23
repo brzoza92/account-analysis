@@ -10,8 +10,8 @@ ploting = Chart()
 print("Witaj,\nco chesz zrobić?")
 print(
     "1 - dodaj nowe dane\n"
-    +"2 - odczytaj wyniki\n"
-    +"x - koniec"
+    "2 - odczytaj wyniki\n"
+    "x - koniec\n"
 )
 selection1 = input()
 
@@ -38,16 +38,23 @@ while(True):
                 if index is not None:
                     str_description = str(description2_column[index])
                     print(
-                        "Opis transakcji:\n" 
-                        +str(description3_column[index]) +"\n"
-                        +str(description1_column[index]) +"\n"
-                        +str_description + "\n"
+                        '''
+                        Opis transakcji:\n{descript3}\n{descript1}\n{descript}
+                        '''.format(
+                                descript3 = str(description3_column[index]),
+                                descript1 = str(description1_column[index]),
+                                descript = str_description
+                                )
                         )
                     print(index)
                     auto_search = new_json.FindDescription(str_description)
                     if auto_search != []:
                         new_account.FillCatAndPlace(index, auto_search[0], auto_search[1])
-                        print("Wybrano kategorie "+str(auto_search[0]) +" i miejsce o nazwie "+str(auto_search[1])+"\n")
+                        print(
+                            "Wybrano kategorie {} i miejsce o nazwie {}\n".format(
+                                str(auto_search[0]), str(auto_search[1])
+                                )
+                            )
                     else:
                         by_hand = True
                         category = new_json.SelectCategory()
@@ -85,9 +92,9 @@ while(True):
         print("Co potrzebujesz?")
         print(
             "1 - Podział miesiąca na kategorie\n"
-            +"2 - Podział na miesiące\n"
-            +"3 - Podział na lata\n"
-            +"x - Wstecz"
+            "2 - Podział na miesiące\n"
+            "3 - Podział na lata\n"
+            "x - Wstecz\n"
         )
         selection2 = input()
         if selection2 == "1":   #podział na kategorie
@@ -121,9 +128,9 @@ while(True):
         break
     print(
         "Coś jeszcze?\n"
-        +"1 - dodaj nowe dane\n"
-        +"2 - odczytaj wyniki\n"
-        +"x - koniec\n"
+        "1 - dodaj nowe dane\n"
+        "2 - odczytaj wyniki\n"
+        "x - koniec\n"
         )
     selection1 = input()
     if not selection1.isnumeric():      #koniec programu jeżeli inne niż cyfra

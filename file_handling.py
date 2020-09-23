@@ -35,7 +35,7 @@ class File:
         self.months = {}
         for i in range(1,13):
             if i < 10:
-                month_no = "0"+str(i)
+                month_no = "0{}".format(i)
             else:
                 month_no = str(i)
             self.months[month_no] = 0
@@ -136,7 +136,7 @@ class File:
         catColumn = self.main_file[self.main_file.columns[11]]
         for y in years_dict:
             filter_cond = (
-                dateColumn.str.contains(str(y)+"-")
+                dateColumn.str.contains("{}-".format(y))
                 & (amountColumn < 0)
                 & (catColumn != "Transfer wewnetrzny")
                 )
@@ -155,14 +155,14 @@ class File:
         self._getMonthDict()
         self.ReadMain()    
 
-        year_str = str(year) + "-"
+        year_str = "{}-".format(year)
         dateColumn = self.main_file[self.main_file.columns[0]]
         amountColumn = self.main_file[self.main_file.columns[3]]
         catColumn = self.main_file[self.main_file.columns[11]]
         for m in self.months:
             filter_cond = (
                 dateColumn.str.contains(year_str)
-                & dateColumn.str.contains("-"+ m + "-")
+                & dateColumn.str.contains("-{}-".format(m))
                 & (amountColumn < 0)
                 & (catColumn != "Transfer wewnetrzny")
                 )
@@ -178,10 +178,10 @@ class File:
         """
         self.ReadMain()
         if month < 10:
-            str_month = "0" + str(month)
+            str_month = "0{}".format(month)
         else:
             str_month = str(month)
-        date_str = str(year)+ "-" + str_month + "-"    
+        date_str = "{}-{}-".format(year, str_month)  
         dateColumn = self.main_file[self.main_file.columns[0]]
         amountColumn = self.main_file[self.main_file.columns[3]]
         catColumn = self.main_file[self.main_file.columns[11]]

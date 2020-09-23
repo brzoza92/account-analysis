@@ -67,7 +67,7 @@ class dbFile:
         while(True):
             categories = self._getCategoriesList()
             for i,j in enumerate(categories):
-                print(str(i) + "- " + j)
+                print("{}- {}".format(i, j))
             category = input("Wybierz kategorie. (n - dodaj nowa), (x - przerwij)\n")
             if category.isdigit():
                 return categories[int(category)]
@@ -85,14 +85,14 @@ class dbFile:
             file_place = self._Open()
             names_key = self._getDefDictKeys(file_place[category])[0]
             i = 0
-            for dict in file_place[category]:
+            for dictionary in file_place[category]:
                 if i > 0:
-                    print(str(i) +"- " +dict.get(names_key))
+                    print("{} - {}".format(i, dictionary.get(names_key)))
                 i += 1    
             if (i >= 2):
                 place = input("Wybierz miejsce. (n - dodaj nowe), (x - przerwij)\n")   
             else:
-                place = input("Brak placówek w kategorii "+ category +". (n - dodaj nowe), (x - przerwij)\n" )
+                place = input("Brak placówek w kategorii {}. (n - dodaj nowe), (x - przerwij)\n".format(category))
             if place.isdigit():
                 return int(place)
             else: 
