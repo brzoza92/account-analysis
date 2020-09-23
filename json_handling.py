@@ -203,7 +203,7 @@ class dbFile:
                 close_match = difflib.get_close_matches(
                     str(description_text),
                     descriptions_list, n = 1,
-                    cutoff = 0.9
+                    cutoff = 0.98
                     )
                 if close_match != []:
                     self.AddDescriptionTarget(category, dictionary_id, description_text)

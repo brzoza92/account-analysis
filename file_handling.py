@@ -38,7 +38,6 @@ class File:
                 month_no = "0"+str(i)
             else:
                 month_no = str(i)
-            month_no = "-"+ month_no + "-"
             self.months[month_no] = 0
         return self.months
     def __getFileLength__(self):
@@ -69,7 +68,7 @@ class File:
         return to_erease_name  
 
     def __sortDictionary__(self, InDictionary):
-        tmp_list = sorted(InDictionary.items(), key=lambda x: x[1], reverse = True)
+        tmp_list = sorted(InDictionary.items(), key=lambda x: x[1], reverse = False)
         result = {}
         for item in tmp_list:
             result[item[0]] = item[1]
@@ -107,8 +106,14 @@ class File:
         """
         Adds new data logs from file path to a file used in instance of class. Cleares main file from duplicates.
         """
+        try:
+            df_new_data = pd.read_csv(newfile, encoding = self.encoding)
+
+        except FileNotFoundError:
+            print("Błąd. Brak pliku o podanej nazwie.")
+            return False
+
         
-        df_new_data = pd.read_csv(newfile, encoding = self.encoding)
 
         if self.__columnsCmp__(df_new_data):         #check if same type of csv data
             df_new_data.drop(columns = self.__columnsDiff__(df_new_data), inplace = True)
@@ -120,7 +125,7 @@ class File:
         self.main_file.to_csv(self.path, index = False, encoding = self.encoding)
 
 
-        return None
+        return True
 
     def SplitYears(self):
         """
@@ -132,10 +137,12 @@ class File:
             years_dict[year] = 0
         dateColumn = self.main_file[self.main_file.columns[0]]
         amountColumn = self.main_file[self.main_file.columns[3]]
+        catColumn = self.main_file[self.main_file.columns[11]]
         for y in years_dict:
             filter_cond = (
                 dateColumn.str.contains(str(y)+"-")
                 & (amountColumn < 0)
+                & (catColumn != "Transfer wewnetrzny")
                 )
             edited_file = self.main_file.loc[filter_cond]
             #print(edited_file[edited_file.columns[0]])
@@ -143,7 +150,7 @@ class File:
             years_dict[y] = result * -1 
         return years_dict
 
-    def SplitMonths(self, year):
+    def SplitMonths(self, year = dt.now().year):
         """
         Presents costs taken in split for months.
 
@@ -155,11 +162,13 @@ class File:
         year_str = str(year) + "-"
         dateColumn = self.main_file[self.main_file.columns[0]]
         amountColumn = self.main_file[self.main_file.columns[3]]
+        catColumn = self.main_file[self.main_file.columns[11]]
         for m in self.months:
             filter_cond = (
                 dateColumn.str.contains(year_str)
-                & dateColumn.str.contains(m)
+                & dateColumn.str.contains("-"+ m + "-")
                 & (amountColumn < 0)
+                & (catColumn != "Transfer wewnetrzny")
                 )
             edited_file = self.main_file.loc[filter_cond]
             result = round(edited_file[edited_file.columns[3]].sum(), 2)
@@ -167,7 +176,7 @@ class File:
         
         return self.months
 
-    def SplitCategoriesMonthly(self, month, year):
+    def SplitCategoriesMonthly(self, month, year = dt.now().year):
         """
         Presents costs taken in split for categories in selected month.
         """
@@ -186,6 +195,7 @@ class File:
         filter_cond = (
             dateColumn.str.contains(date_str)
             & (amountColumn < 0)
+            & (catColumn != "Transfer wewnetrzny")
             )
         filter_cond_empty = (filter_cond & catColumn.isnull())
         if (self.main_file.loc[filter_cond_empty][self.main_file.columns[0]].count() > 0):
