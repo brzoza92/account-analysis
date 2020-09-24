@@ -112,13 +112,13 @@ while(True):
         if selection2 == "2":   #podział na miesiące
             year_2 = int(input("Podaj rok:\n"))
             ploting.Chart(
-                new_account.SplitMonths(year_2), 
+                new_account.SplitMonths(year_2),
                 label_X = "Miesiąc", label_Y = "Koszty [PLN]", 
                 title = "Wydatki z {rok} w podziale na miesiące".format(rok = year_2),
                 )
         if selection2 == "3":   #podział na lata
             ploting.Chart(
-                new_account.SplitYears(), 
+                new_account.SplitYears(),
                 label_X = "Rok", label_Y = "Koszty [PLN]", 
                 title = "Wydatki w podziale na lata",
                 )

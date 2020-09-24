@@ -28,43 +28,31 @@ class File:
             print("File is not existing yet.")
             self.Create()
             
-    def _getMonthDict(self):
-        """
-        Reinitialize dictionary of months. 
-        """
-        self.months = {}
-        for i in range(1,13):
-            if i < 10:
-                month_no = "0{}".format(i)
-            else:
-                month_no = str(i)
-            self.months[month_no] = 0
-        return self.months
     def _getFileLength(self):
         """
         Returns the length of main file.
         """    
         self.length = self.main_file[self.main_file.columns[0]].count()
         return self.length
-    def _columnsCmp(self, file):
+    def _columnsCmp(self, file_):
         """
         Compare amount of columns of files.
         """
-        new_columns = file.columns
+        new_columns = file_.columns
         main_columns = list(self.columns)
 
         return len(main_columns) != len(new_columns)    
     
-    def _columnsDiff(self, file):
+    def _columnsDiff(self, file_):
         """
         Returning the array with names of columns to be deleted out of new file.
         """
-        new_columns_diff = len(file.columns)
+        new_columns_diff = len(file_.columns)
         main_columns_diff = len(list(self.columns))
         to_erease = list(range(main_columns_diff,new_columns_diff))
         to_erease_name = []
         for column in to_erease:
-            to_erease_name.append(file.columns[column])
+            to_erease_name.append(file_.columns[column])
         return to_erease_name  
 
     def _sortDictionary(self, InDictionary):
@@ -96,9 +84,9 @@ class File:
         """
         Clears duplicates from file
         """
-        file = self.ReadMain()
-        file.drop_duplicates(inplace = True)
-        file.to_csv(self.path, index = False, encoding=self.encoding)
+        file_ = self.ReadMain()
+        file_.drop_duplicates(inplace = True)
+        file_.to_csv(self.path, index = False, encoding=self.encoding)
 
         return None
 
@@ -123,89 +111,125 @@ class File:
         self.ClearDuplicates()
         return True
 
-    def SplitYears(self):
+    def Filtring(
+        self, data, income = False, outcome = True,
+        month = True, month_val = dt.now().month,
+        year = True, year_val = dt.now().year,
+        inside = False, category = False, category_val = "Spozywcze"):
+        
+        result = data
+        if not (income and outcome):                         #selected only one option
+            if income:
+                result = result.loc[result[result.columns[3]] > 0]
+            else:
+                result = result.loc[result[result.columns[3]] < 0]
+
+        
+        if month:
+            if (int(month_val) < 10):
+                str_month = "-0{}-".format(month_val)
+            else:
+                str_month = "-{}-".format(month_val)
+            result = result.loc[result[result.columns[0]].str.contains(str_month)]
+            
+        
+        if year:
+            str_year = "{}-".format(year_val)
+            result = result.loc[result[result.columns[0]].str.contains(str_year)]
+            
+        
+        if not inside:
+            result = result.loc[result[result.columns[11]] != "Transfer wewnetrzny"]
+        
+        if category:
+            result = result.loc[result[result.columns[11]] == category_val]
+        return result    
+
+    def SplitYears(self, income = False, outcome = True):
         """
         Presents costs taken in split for years.
+        Income equal True to take both income and outcome in consideration
         """
         self.ReadMain()    
         years_dict = {}
         for year in range(2010, dt.now().year + 1):
             years_dict[year] = 0
-        dateColumn = self.main_file[self.main_file.columns[0]]
-        amountColumn = self.main_file[self.main_file.columns[3]]
-        catColumn = self.main_file[self.main_file.columns[11]]
+        
         for y in years_dict:
-            filter_cond = (
-                dateColumn.str.contains("{}-".format(y))
-                & (amountColumn < 0)
-                & (catColumn != "Transfer wewnetrzny")
+            edited_file = self.Filtring(
+                self.main_file, income = income, outcome = outcome,
+                month = False, year = True, year_val = y
                 )
-            edited_file = self.main_file.loc[filter_cond]
-            #print(edited_file[edited_file.columns[0]])
+
             result = round(edited_file[edited_file.columns[3]].sum(), 2)
-            years_dict[y] = result * -1 
+            if income:
+                years_dict[y] = result
+            else:
+                years_dict[y] = result * -1  
         return years_dict
 
-    def SplitMonths(self, year = dt.now().year):
+    def SplitMonths(self, year = dt.now().year, income = False, outcome = True):
         """
         Presents costs taken in split for months.
 
         During development add a year selection. In default, actual year.
+        Income equal True to take both income and outcome in consideration
         """
-        self._getMonthDict()
         self.ReadMain()    
 
-        year_str = "{}-".format(year)
-        dateColumn = self.main_file[self.main_file.columns[0]]
-        amountColumn = self.main_file[self.main_file.columns[3]]
-        catColumn = self.main_file[self.main_file.columns[11]]
-        for m in self.months:
-            filter_cond = (
-                dateColumn.str.contains(year_str)
-                & dateColumn.str.contains("-{}-".format(m))
-                & (amountColumn < 0)
-                & (catColumn != "Transfer wewnetrzny")
-                )
-            edited_file = self.main_file.loc[filter_cond]
-            result = round(edited_file[edited_file.columns[3]].sum(), 2)
-            self.months[m] = result * -1 
-        
-        return self.months
+        months_dict = {}
+        for month in range(1, 13):
+            months_dict[month] = 0
 
-    def SplitCategoriesMonthly(self, month, year = dt.now().year):
+
+        for m in months_dict:
+            edited_file = self.Filtring(
+                self.main_file, income = income, outcome = outcome,
+                month_val = m, year_val = year
+                )
+            
+            result = round(edited_file[edited_file.columns[3]].sum(), 2)
+            if income:
+                months_dict[m] = result
+            else:
+                months_dict[m] = result * -1 
+        
+        print(months_dict)
+        return months_dict
+
+    def SplitCategoriesMonthly(self, month = dt.now().month,
+        year = dt.now().year, income = False, outcome = True):
         """
         Presents costs taken in split for categories in selected month.
+        Income equal True to take both income and outcome in consideration
         """
         self.ReadMain()
-        if month < 10:
-            str_month = "0{}".format(month)
-        else:
-            str_month = str(month)
-        date_str = "{}-{}-".format(year, str_month)  
-        dateColumn = self.main_file[self.main_file.columns[0]]
-        amountColumn = self.main_file[self.main_file.columns[3]]
-        catColumn = self.main_file[self.main_file.columns[11]]
 
-        #generate dictionary of categories that occure in selected month
-        cat_dictionary = {}
-        filter_cond = (
-            dateColumn.str.contains(date_str)
-            & (amountColumn < 0)
-            & (catColumn != "Transfer wewnetrzny")
+        edited_file = self.Filtring(
+            self.main_file, income = income, outcome = outcome,
+            month_val = month, year_val = year
             )
-        filter_cond_empty = (filter_cond & catColumn.isnull())
-        if (self.main_file.loc[filter_cond_empty][self.main_file.columns[0]].count() > 0):
+        filter_cond_empty = edited_file[edited_file.columns[11]].isnull()
+        if (edited_file.loc[filter_cond_empty][edited_file.columns[0]].count() > 0):
             print("Wystepują nieuzupełnione dane. Proszę uzupełnić")
             return None
 
-        edited_file = self.main_file.loc[filter_cond]
         #generate dictionary of categories that occure in selected month
+        cat_dictionary = {}
         for value in list(edited_file[edited_file.columns[11]]):
             cat_dictionary[value] = 0
         for category in cat_dictionary:
-            cat_edited_file = edited_file.loc[edited_file[edited_file.columns[11]] == category] 
+            cat_edited_file = self.Filtring(
+                edited_file, income = income, outcome = outcome,
+                month_val = month, year_val = year,
+                category = True, category_val = category 
+            )
             result = round(cat_edited_file[cat_edited_file.columns[3]].sum(), 2)
-            cat_dictionary[category] =  result * -1      
+            if income:
+                cat_dictionary[category] =  result
+            else:
+                cat_dictionary[category] =  result * -1 
+                 
         return self._sortDictionary(cat_dictionary)
 
 
