@@ -2,6 +2,7 @@ from file_handling import File
 from json_handling import dbFile
 from plots import Chart
 
+path = ""
 new_account = File("tabela.csv")        
 new_json = dbFile()
 ploting = Chart()
