@@ -10,17 +10,16 @@ body {
  */
 
 header {
-  background-color: #e9ae60;
+  background-color: #f7c98d;
   height: 35px;
   width: 100%;
-  opacity: .9;
   margin-bottom: 10px;
 }
 
 header h1.logo {
   margin: 0;
   font-size: 1.7em;
-  color: #fff;
+  color: #444;
   text-transform: uppercase;
   float: left;
 }
@@ -29,6 +28,7 @@ header h1.logo:hover {
   color: #fff;
   text-decoration: none;
 }
+
 
 /*
  * Center the body content
@@ -41,24 +41,23 @@ header h1.logo:hover {
 
 div.home {
   padding: 10px 0 30px 50px;
-  background-color: #afafeb;
+  background-color: #a3b4db;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
 
 div.content {
-  padding: 10px 0 100px 50px;
-  background-color: #5d5dac;
+  padding: 10px 50px 100px 50px;
+  background-color: #a3b4db;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
 
 div.form_group {
-  width: 300px;
-  padding: 10px 0 10px 50px;
-  background-color: #08083b;
+  padding: 10px 50px 10px 50px;
+  background-color: #f7c98d;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -89,6 +88,11 @@ h3 {
   color: #999;
 }
 
+p {
+  font-size: 18px;
+
+}
+
 .menu {
   float: right;
   margin-top: 8px;
@@ -106,3 +110,25 @@ h3 {
   color: #444;
   text-decoration: none;
 }
+
+
+.button1 {
+  background-color: rgb(221, 221, 221); 
+  border: 1px solid #000000;
+  color: #444;
+  width: 220px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.button1:hover {
+  background-color: rgb(238, 238, 238); 
+
+}
+

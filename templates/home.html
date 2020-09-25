@@ -1,31 +1,27 @@
 {%extends "layout.html"%}
+
+{% block title %}
+<title>Analiza konta - Strona główna</title>
+{% endblock %}
+
 {%block content%}
 
 <div class="home">
-    <h1>This is a website!</h1>
-    <p>{{ text_input }} Text on a website </p>
-    
-
+    <h1>Analiza konta</h1>
+    <p>Co chcesz zrobić?</p>
 </div>
 </br>
 
 <div class = "content">
     
     <div class = "form_group">
-        <form action="/selection", method = "POST">
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" href="/selection" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Typ wykresu</button>
-                
-            
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <button class="dropdown-item" href="/about">Słupkowy</button>
-                </div>
-            </div>    
-            <input class="form-control" type="text" placeholder="Default input", name = "text_in">
-            </br></br>
-            <button class="btn btn-primary" type="submit">Zatwierdz</button>
-        </form>    
+            <form action="", method = "POST">
+                <button type="submit" class="button1" name = "selection1", value = "AddNew">Dodaj nowe dane</button>
+            </form>  
+            <form action="", method = "POST">
+                <button type="submit" class="button1" name = "selection1", value = "Read">Odczytaj wyniki</button>
+            </form>   
+        </ul>   
     </div>
 
                   

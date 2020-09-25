@@ -1,23 +1,26 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 
 
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = "a67c6cc35e60b993eed3ec744bbc84da"
 
-@app.route("/")
+@app.route("/", methods = ["GET", "POST"])
 def home():
-    return render_template("home.html", title = "Home")
+    #if request.method == "POST":
+    print(request.form.get("selection1"))
+    if request.form.get("selection1") == "AddNew":
+        return redirect(url_for("selection"))
+    return render_template("home.html")
     
 @app.route("/about")
 def about():
-    return render_template("about.html", title = "About")
+    return render_template("about.html")
 
 
-@app.route("/selection", methods = ['POST'])
+@app.route("/selection", methods = ['GET','POST'])
 def selection():
-    text_in = request.form.get('text_in')
-    return render_template("selection.html", title = "Selection", text_input = text_in)
+    return render_template("selection.html")
 
 if __name__ == "__main__":
     app.run(debug = True)
