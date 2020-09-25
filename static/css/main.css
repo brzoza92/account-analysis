@@ -10,7 +10,7 @@ body {
  */
 
 header {
-  background-color: #DFB887;
+  background-color: #e9ae60;
   height: 35px;
   width: 100%;
   opacity: .9;
@@ -40,12 +40,30 @@ header h1.logo:hover {
 }
 
 div.home {
-  padding: 10px 0 30px 0;
-  background-color: #E6E6FA;
+  padding: 10px 0 30px 50px;
+  background-color: #afafeb;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
+
+div.content {
+  padding: 10px 0 100px 50px;
+  background-color: #5d5dac;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+div.form_group {
+  width: 300px;
+  padding: 10px 0 10px 50px;
+  background-color: #08083b;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
 
 div.about {
   padding: 10px 0 30px 0;

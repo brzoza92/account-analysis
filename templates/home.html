@@ -3,8 +3,32 @@
 
 <div class="home">
     <h1>This is a website!</h1>
-    <p>Text on a website </p>
+    <p>{{ text_input }} Text on a website </p>
+    
+
+</div>
+</br>
+
+<div class = "content">
+    
+    <div class = "form_group">
+        <form action="/selection", method = "POST">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" href="/selection" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Typ wykresu</button>
                 
+            
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <button class="dropdown-item" href="/about">Słupkowy</button>
+                </div>
+            </div>    
+            <input class="form-control" type="text" placeholder="Default input", name = "text_in">
+            </br></br>
+            <button class="btn btn-primary" type="submit">Zatwierdz</button>
+        </form>    
+    </div>
+
+                  
 </div>
 {%endblock%}
 
