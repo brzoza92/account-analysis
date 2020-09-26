@@ -10,7 +10,7 @@ def home():
     #if request.method == "POST":
     print(request.form.get("selection1"))
     if request.form.get("selection1") == "AddNew":
-        return redirect(url_for("selection"))
+        return redirect(url_for("addData"))
     return render_template("home.html")
     
 @app.route("/about")
@@ -18,9 +18,11 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/selection", methods = ['GET','POST'])
-def selection():
-    return render_template("selection.html")
+@app.route("/addData", methods = ['GET','POST'])
+def addData():
+    print(request.form.get("input_button"))
+
+    return render_template("adddata.html")
 
 if __name__ == "__main__":
     app.run(debug = True)
