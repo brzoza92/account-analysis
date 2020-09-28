@@ -1,6 +1,11 @@
 from flask import Flask, render_template, request, redirect, url_for
+from file_handling import File
+from json_handling import dbFile
 
 
+path = ""
+new_account = File("tabela.csv")        
+new_json = dbFile()
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = "a67c6cc35e60b993eed3ec744bbc84da"
@@ -20,8 +25,6 @@ def about():
 
 @app.route("/addData", methods = ['GET','POST'])
 def addData():
-    print(request.form.get("input_button"))
-
     return render_template("adddata.html")
 
 if __name__ == "__main__":

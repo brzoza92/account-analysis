@@ -125,7 +125,7 @@ while(True):
                 )
         else:                   #wstecz
             pass
-    else:                               #koniec
+    if not selection1.isnumeric():                 #koniec
         break
     print(
         "Coś jeszcze?\n"

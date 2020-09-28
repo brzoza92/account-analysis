@@ -763,6 +763,12 @@
                 "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     22400000CLN7M",
                 "Lokalizacja: Kraj: IRLANDIA Miasto: DUBLIN Adres: RYANAIR     EJ64GF0"
             ]
+        },
+        {
+            "Nazwa placowki": "Fizjoterapeuta",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FIZJO OPTIMA"
+            ]
         }
     ],
     "Niezdefiniowane": [
