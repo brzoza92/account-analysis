@@ -1,13 +1,17 @@
 # account-analysis
+Analiza danych z prywatnego konta w banku PKO na podstawie pliku .csv wygenerowanego w serwisie.
 
-readme file of account analysis project
+Aplikacja daje możliwość dodania nowych wydatków oraz wgląd w historię wydatków, prezentowaną z wykorzystaniem diagramów.
 
-Cel projektu - łatwa analiza wydatków z mojego konta PKO
+Aby dodać nowe dane należy zapisać nowe dane w folderze aplikacji i po wybraniu odpowiedniej opcji w terminalu podać nazwę pliku, razem z rozszerzeniem .csv.
 
-Efekt końcowy - przedstawienie wydatków w całości, z podziałem na adresatów (np. Kaufland, Zalando, BP); typ adresatów (np. sklep spożywczy, stacja paliw) w zadanym okresie czasu
+Możliwa jest prezentacja wydatków w podziale na lata kalendarzowe, na miesiące w konkretnym roku oraz na kategorie w wybranym miesiącu.
 
-Sposoby na rozwiązanie różnych tematów - 
+Funkcjonalności do dodania w przyszłośći:
 
-  - możliwość dodawania nowych danych z konta. Stworzyć jeden plik bazowy, do którego zostają dopisane rekordy z nowego pliku. Pomijać powtarzające się zapisy.
-  - dane na temat występujących adresatów trzymać w pliku zewnętrznym (.json będzie odpowiedni?). Tam zdefiniować m.in. typ adresata, skrót do wyświetlania. Umożliwić modyfikację    adresata już zapisanego. Jeżeli rekord z konta nie ma odpowiednika w bazie, wygenerować nowy i ma nakazać uzupełnić dane.
-  - prezentacja danych w html?
+- wykorzystanie konfiguratora filtrowania danych i prezentowanie danych na żądanie operatora, nie tylko podział jak powyżej.
+- prezentowanie wyników nie tylko w formie diagramów, ale również poprzez wystawienie "dataFrame" w terminalu.
+
+
+
+
