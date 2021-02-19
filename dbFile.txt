@@ -629,7 +629,8 @@
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ROSSMANN 17",
                 "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ROSSMANN 38",
-                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ROSSMANN 14"
+                "Lokalizacja: Kraj: POLSKA Miasto: Krakow Adres: ROSSMANN 14",
+                "Lokalizacja: Kraj: POLSKA Miasto: Modlniczka Adres: ROSSMANN"
             ]
         }
     ],
@@ -657,7 +658,8 @@
         {
             "Nazwa placowki": "Inne",
             "Opis transakcji": [
-                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MARKET OBI 059 MB KASA"
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: MARKET OBI 059 MB KASA",
+                "Lokalizacja: Kraj: POLSKA Miasto: MODLNICZKA Adres: LEROY MERLIN SKLEP KRAK"
             ]
         }
     ],
@@ -768,6 +770,12 @@
             "Nazwa placowki": "Fizjoterapeuta",
             "Opis transakcji": [
                 "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: FIZJO OPTIMA"
+            ]
+        },
+        {
+            "Nazwa placowki": "Kwiaciarnia",
+            "Opis transakcji": [
+                "Lokalizacja: Kraj: POLSKA Miasto: KRAKOW Adres: VIENNA G.R. SP. Z O.O."
             ]
         }
     ],
@@ -1041,7 +1049,8 @@
                 "Nazwa odbiorcy: GUCWA KAMIL",
                 "Nazwa nadawcy: BRZOZOWSKI WOJCIECH KRZYSZTOF",
                 "Nazwa odbiorcy: WOJCIECH KRZYSZTOF BRZOZOWSKI",
-                "Nazwa odbiorcy: PAULINA"
+                "Nazwa odbiorcy: PAULINA",
+                "Nazwa odbiorcy: RADOS\u0141AW NOWORYTA"
             ]
         }
     ],
